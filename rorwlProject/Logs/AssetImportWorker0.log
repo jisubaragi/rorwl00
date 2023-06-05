@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.24f1 (cf10dcf7010d) revision 13570268'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ko' Physical Memory: 16085 MB
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ko' Physical Memory: 7986 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/aa010/OneDrive/문서/rorcp/rorwl00/rorwlProject
+C:/Users/김민준/OneDrive/바탕 화면/객체지향프로젝트/rorwl00/rorwlProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56636
-Successfully changed project path to: C:/Users/aa010/OneDrive/문서/rorcp/rorwl00/rorwlProject
-C:/Users/aa010/OneDrive/문서/rorcp/rorwl00/rorwlProject
+64898
+Successfully changed project path to: C:/Users/김민준/OneDrive/바탕 화면/객체지향프로젝트/rorwl00/rorwlProject
+C:/Users/김민준/OneDrive/바탕 화면/객체지향프로젝트/rorwl00/rorwlProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,109 +47,113 @@ C:/Users/aa010/OneDrive/문서/rorcp/rorwl00/rorwlProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23280] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 3845751119 [EditorId] 3845751119 [Version] 1048832 [Id] WindowsEditor(7,ruswkgml) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15848] Host "[IP] 172.16.0.142 [Port] 0 [Flags] 2 [Guid] 1388177470 [EditorId] 1388177470 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RU2O4I0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23280] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 3845751119 [EditorId] 3845751119 [Version] 1048832 [Id] WindowsEditor(7,ruswkgml) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15848] Host "[IP] 172.16.0.142 [Port] 0 [Flags] 2 [Guid] 1388177470 [EditorId] 1388177470 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RU2O4I0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 113.39 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 218.65 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/aa010/OneDrive/문서/rorcp/rorwl00/rorwlProject/Assets
+[Subsystems] Discovering subsystems at path C:/Users/김민준/OneDrive/바탕 화면/객체지향프로젝트/rorwl00/rorwlProject/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
-    Vendor:   NVIDIA
-    VRAM:     6009 MB
-    Driver:   31.0.15.2756
+    Renderer: Intel(R) UHD Graphics 610 (ID=0x3ea1)
+    Vendor:   Intel
+    VRAM:     3993 MB
+    Driver:   31.0.101.2111
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004057 seconds.
+Registered in 0.030770 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 81.94 ms, found 4 plugins.
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 687 ms
+Refreshing native plugins compatible for Editor in 164.26 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.702 seconds
+- Completed reload, in  2.522 seconds
 Domain Reload Profiling:
-	ReloadAssembly (702ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (2522ms)
+		BeginReloadAssembly (368ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (4ms)
-		EndReloadAssembly (482ms)
-			LoadAssemblies (100ms)
+			CreateAndSetChildDomain (8ms)
+		EndReloadAssembly (1888ms)
+			LoadAssemblies (356ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (115ms)
+			SetupTypeCache (413ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (269ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (1315ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (82ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (131ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				InitializePlatformSupportModulesInManaged (818ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (164ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (107ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005649 seconds.
+Registered in 0.044966 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\aa010\OneDrive\문서\rorcp\rorwl00\rorwlProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\aa010\OneDrive\문서\rorcp\rorwl00\rorwlProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\김민준\OneDrive\바탕 화면\객체지향프로젝트\rorwl00\rorwlProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\김민준\OneDrive\바탕 화면\객체지향프로젝트\rorwl00\rorwlProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 94.70 ms, found 4 plugins.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 156.79 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.407 seconds
+- Completed reload, in  2.710 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1408ms)
-		BeginReloadAssembly (131ms)
+	ReloadAssembly (2711ms)
+		BeginReloadAssembly (253ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1123ms)
-			LoadAssemblies (118ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (2231ms)
+			LoadAssemblies (427ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (282ms)
+			SetupTypeCache (488ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (579ms)
+			RebuildScriptCaches (142ms)
+			SetupLoadedEditorAssemblies (1098ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (34ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (95ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (309ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (1ms)
+				RefreshPlugins (157ms)
+				BeforeProcessingInitializeOnLoad (226ms)
+				ProcessInitializeOnLoadAttributes (578ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.17 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3743 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (56.4 KB). Loaded Objects now: 4202.
-Memory consumption went from 142.9 MB to 142.8 MB.
-Total: 4.850200 ms (FindLiveObjects: 0.417800 ms CreateObjectMapping: 0.180000 ms MarkObjects: 4.161000 ms  DeleteObjects: 0.089500 ms)
+Unloading 35 unused Assets / (56.2 KB). Loaded Objects now: 4204.
+Memory consumption went from 148.5 MB to 148.5 MB.
+Total: 8.835200 ms (FindLiveObjects: 0.625900 ms CreateObjectMapping: 0.537800 ms MarkObjects: 7.525400 ms  DeleteObjects: 0.143800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,31 +167,91 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 33296.058962 seconds.
+  Time since last request: 1297484.918080 seconds.
+  path: Assets/FoodPrefabs/공대Prefabs/라면공방/Food(공방김밥).prefab
+  artifactKey: Guid(7c9d1718e5010bd4996b099ac130946a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/공대Prefabs/라면공방/Food(공방김밥).prefab using Guid(7c9d1718e5010bd4996b099ac130946a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b79227efe848b92cf2651d0d264bc5') in 0.384622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
   path: Assets/TopDown 2D RPG BE3/Readme.asset
   artifactKey: Guid(4ff280a9fdc784d46beb69b6da783245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TopDown 2D RPG BE3/Readme.asset using Guid(4ff280a9fdc784d46beb69b6da783245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7d198b331ad6e284cc1040bb14856c') in 0.052509 seconds 
+Start importing Assets/TopDown 2D RPG BE3/Readme.asset using Guid(4ff280a9fdc784d46beb69b6da783245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614a76cd3ae8d3015ae63f9d7c9c7115') in 0.032229 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
+  Time since last request: 0.000057 seconds.
+  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab
+  artifactKey: Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab using Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0548750fdcf7b12606f3a1e0ca9b11') in 0.057720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FoodPrefabs/공대Prefabs/라면공방/Food(대왕유부3종세트).prefab
+  artifactKey: Guid(654297ddb38b6254399b7c6eb9edda68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/공대Prefabs/라면공방/Food(대왕유부3종세트).prefab using Guid(654297ddb38b6254399b7c6eb9edda68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365ffd4171115dc614c694e3dc9ce382') in 0.038601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FoodPrefabs/공대Prefabs/라면공방/Food(김치라면).prefab
+  artifactKey: Guid(2049a3d08979e61478cabedf326a0520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/공대Prefabs/라면공방/Food(김치라면).prefab using Guid(2049a3d08979e61478cabedf326a0520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441b2aba99717cc2250a6be3335faa8e') in 0.042943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FoodPrefabs/공대Prefabs/월남선생/Food(달걀야채볶음밥).prefab
+  artifactKey: Guid(bb06b2df1ba64dd49a7b569833f76925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/공대Prefabs/월남선생/Food(달걀야채볶음밥).prefab using Guid(bb06b2df1ba64dd49a7b569833f76925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f9c145762d5af886f447109715fcde') in 0.043097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FoodPrefabs/공대Prefabs/월남선생/Food(닭나랭).prefab
+  artifactKey: Guid(19562e13a51c4824e84143e16a6222cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/공대Prefabs/월남선생/Food(닭나랭).prefab using Guid(19562e13a51c4824e84143e16a6222cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c287ff395791fc52df22111ea0499602') in 0.037342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/FoodPrefabs/공대Prefabs/바비든든/Food(김양삼덮).prefab
+  artifactKey: Guid(9437d0b25b1e64b4d8e8d40caf9bad8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/공대Prefabs/바비든든/Food(김양삼덮).prefab using Guid(9437d0b25b1e64b4d8e8d40caf9bad8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d62daa6d73a60353a42da3575a1bed') in 0.051853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FoodPrefabs/공대Prefabs/바비든든/Food(김치찌개).prefab
+  artifactKey: Guid(2df13253be8fbdb46baba232414f3ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/공대Prefabs/바비든든/Food(김치찌개).prefab using Guid(2df13253be8fbdb46baba232414f3ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7f13f088ed62a4c4582ac16b86cd54') in 0.040375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4935f35005d3ccd51bf39964504ff1b7') in 0.029587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/FoodPrefabs/공대Prefabs/월남선생/Food(닭냉쌀).prefab
+  artifactKey: Guid(8deb8da8c37775447a25638276cb01ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/공대Prefabs/월남선생/Food(닭냉쌀).prefab using Guid(8deb8da8c37775447a25638276cb01ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa336db0a6bfc1ddee210797911b462f') in 0.043180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FoodPrefabs/공대Prefabs/구시아돈가스/Food(냉모밀).prefab
+  artifactKey: Guid(1d9a03c2cbd653840b14cebaf4f67dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/공대Prefabs/구시아돈가스/Food(냉모밀).prefab using Guid(1d9a03c2cbd653840b14cebaf4f67dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f9518fded5d39f17cf1493465e2c68') in 0.042913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
   path: Assets/TopDown 2D RPG BE3/App Icon.png
   artifactKey: Guid(e15a0aaf619d8aa429bd091186fb29a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TopDown 2D RPG BE3/App Icon.png using Guid(e15a0aaf619d8aa429bd091186fb29a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4baf4359da2a6202bdd62509a644815f') in 0.215581 seconds 
+Start importing Assets/TopDown 2D RPG BE3/App Icon.png using Guid(e15a0aaf619d8aa429bd091186fb29a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5a6d358a6c684159b7c6c3d9d058e7') in 0.216277 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.289369 seconds.
-  path: Assets/BackGroung/KakaoTalk_20230604_222845950.png
-  artifactKey: Guid(589688df10c93ee4787ebec342ecaeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BackGroung/KakaoTalk_20230604_222845950.png using Guid(589688df10c93ee4787ebec342ecaeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90031fe4220bd26f08e36f7319f21d14') in 0.039309 seconds 
+  Time since last request: 0.000048 seconds.
+  path: Assets/FoodPrefabs/공대Prefabs/라면공방/Food(공방라면).prefab
+  artifactKey: Guid(8221fad5eea2a1a4cacfbbb1f46c93cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/공대Prefabs/라면공방/Food(공방라면).prefab using Guid(8221fad5eea2a1a4cacfbbb1f46c93cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af59bff8c32c4915126d63328534b21') in 0.041762 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.178938 seconds.
-  path: Assets/Font/NEXON Lv1 Gothic OTF Bold.otf
-  artifactKey: Guid(04d3e61ad3c12b6498a014857e0f0f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Font/NEXON Lv1 Gothic OTF Bold.otf using Guid(04d3e61ad3c12b6498a014857e0f0f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0554c9a12f2841a850ef27db3e2da7f7') in 0.075760 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.533090 seconds.
+  Time since last request: 0.060716 seconds.
   path: Assets/Scenes/SampleScene.unity
   artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1787494a459728d9dc7af559bf6c9ab') in 0.017346 seconds 
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef0b6829d3d168863483e514ef26513') in 0.022956 seconds 
