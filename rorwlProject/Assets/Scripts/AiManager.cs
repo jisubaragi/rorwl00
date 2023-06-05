@@ -20,7 +20,7 @@ public class AiManager : MonoBehaviour
 
     private void Update()
     {
-        if (numberManager.turn == 8)
+        if (numberManager.turn == 7)
         {
             if (!isFood)
             {
@@ -95,6 +95,104 @@ public class AiManager : MonoBehaviour
                                         }
                                 }
                             }
+                    }
+                }
+                else if (numberManager.choosePlaceNum == 2)
+                {
+                    for (int i = 0; i < prefabManager.food02Prefabs.Length; i++)
+                    {
+                        if (numberManager.chooseSmallKindNum == 6)
+                        {
+                            numberManager.chooseSmallKindNum = randomNumber02;
+                        }
+                        if (prefabManager.food02Prefabs[i].GetComponent<FoodManager>().foodNumber.foodSmallKindNum == numberManager.chooseSmallKindNum)
+                        {
+                            if (j > 0 && index01 == 0)
+                            {
+                                if (j == 1)
+                                {
+                                    index02++;
+                                }
+                                else if (j == 2)
+                                {
+                                    readyFoodPrefabs[index03] = prefabManager.food02Prefabs[i];
+                                    index03++;
+                                }
+                            }
+                            else
+                            {
+                                if (numberManager.chooseBigKindNum == 6)
+                                {
+                                    numberManager.chooseBigKindNum = randomNumber03;
+                                }
+
+                                if (prefabManager.food02Prefabs[i].GetComponent<FoodManager>().foodNumber.foodBigKindNum == numberManager.chooseBigKindNum)
+                                {
+                                    if (j == 0)
+                                    {
+                                        index01++;
+                                    }
+                                    else if (j == 1)
+                                    {
+                                        index02++;
+                                    }
+                                    else if (j == 2)
+                                    {
+                                        readyFoodPrefabs[index03] = prefabManager.food02Prefabs[i];
+                                        index03++;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                else if (numberManager.choosePlaceNum == 3)
+                {
+                    for (int i = 0; i < prefabManager.food03Prefabs.Length; i++)
+                    {
+                        if (numberManager.chooseSmallKindNum == 6)
+                        {
+                            numberManager.chooseSmallKindNum = randomNumber02;
+                        }
+                        if (prefabManager.food03Prefabs[i].GetComponent<FoodManager>().foodNumber.foodSmallKindNum == numberManager.chooseSmallKindNum)
+                        {
+                            if (j > 0 && index01 == 0)
+                            {
+                                if (j == 1)
+                                {
+                                    index02++;
+                                }
+                                else if (j == 2)
+                                {
+                                    readyFoodPrefabs[index03] = prefabManager.food03Prefabs[i];
+                                    index03++;
+                                }
+                            }
+                            else
+                            {
+                                if (numberManager.chooseBigKindNum == 6)
+                                {
+                                    numberManager.chooseBigKindNum = randomNumber03;
+                                }
+
+                                if (prefabManager.food03Prefabs[i].GetComponent<FoodManager>().foodNumber.foodBigKindNum == numberManager.chooseBigKindNum)
+                                {
+                                    if (j == 0)
+                                    {
+                                        index01++;
+                                    }
+                                    else if (j == 1)
+                                    {
+                                        index02++;
+                                    }
+                                    else if (j == 2)
+                                    {
+                                        readyFoodPrefabs[index03] = prefabManager.food03Prefabs[i];
+                                        index03++;
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }

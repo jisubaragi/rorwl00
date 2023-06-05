@@ -20,29 +20,29 @@ public class ButtonManager : MonoBehaviour
         switch (AiManager.instance.numberManager.turn) 
         {
             case 1:
-                AiManager.instance.numberManager.chooseYesorNo = btNumber;
-                break;
-            case 2:
                 //AiManager.instance.numberManager.choosePlaceNum = btNumber;
+                AiManager.instance.numberManager.chooseYesorNo = btNumber;
                 AiManager.instance.numberManager.turn++;
                 break;
-            case 4:
+            case 3:
                 AiManager.instance.numberManager.chooseWeatherNum = btNumber;
                 AiManager.instance.numberManager.turn++;
                 break;
-            case 5:
+            case 4:
                 AiManager.instance.numberManager.chooseTempNum = btNumber;
                 AiManager.instance.numberManager.turn++;
                 break;
-            case 6:
+            case 5:
                 AiManager.instance.numberManager.chooseSmallKindNum = btNumber;
                 AiManager.instance.numberManager.turn++;
                 break;
-            case 7:
+            case 6:
                 AiManager.instance.numberManager.chooseBigKindNum = btNumber;
                 AiManager.instance.numberManager.turn++;
                 break;
         }
+
+        TextManager.instance.isText = false;
 
         UI.SetActive(false);
         if (NextUI != null)

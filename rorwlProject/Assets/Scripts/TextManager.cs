@@ -5,17 +5,94 @@ using UnityEngine.UI;
 
 public class TextManager : MonoBehaviour
 {
+    public static TextManager instance;
+
     public GameObject NextUI;
     public Text ChatText;  //채팅이 나오는 텍스트
 
     public string writerText = "";
+    public bool isText;
 
-    void Start()
+    private void Awake()
     {
-        StartCoroutine(TextPrint());
+        instance = this;
     }
 
-    IEnumerator Chat(int num, string narration)
+    private void FixedUpdate()
+    {
+        if (!isText)
+        {
+            //StartCoroutine(TextPrint());
+            PrintText();
+        }
+
+        if(AiManager.instance.numberManager.turn == 0){
+            if (Input.GetMouseButtonDown(0))
+            {
+                AiManager.instance.numberManager.turn++;
+                isText = false;
+            }
+        }
+    }
+
+    void PrintText()
+    {
+        switch (AiManager.instance.numberManager.turn)
+        {
+            case 0:
+                Chat00("Z...z..z");
+                break;
+            case 1:
+                int randomNumber = Random.Range(1, 3);
+                switch (randomNumber)
+                {
+                    case 1:
+                        Chat00("어 뭐야 학식추천 받으려고?");
+                        HideAndShow();
+                        break;
+                    case 2:
+                        Chat00("뭐야.... 학식추천 받을래?");
+                        HideAndShow();
+                        break;
+                }
+                break;
+            case 2:
+                if (AiManager.instance.numberManager.chooseYesorNo == 1)
+                {
+                    Chat00("좋아, 지금 너가 있는곳은 어디야?");
+                }
+                else if (AiManager.instance.numberManager.chooseYesorNo == 2)
+                {
+                    Chat00("뭐야 그럼 왜깨운거야;;");
+                }
+                break;
+            case 3:
+                Chat00("날씨가 어때?");
+                break;
+            case 4:
+                Chat00("온도는 어때?");
+                break;
+            case 5:
+                Chat00("소종류?");
+                break;
+            case 6:
+                Chat00("대종류?");
+                break;
+            case 7:
+                Chat00("짜잔");
+                break;
+        }
+        isText = true;
+    }
+
+    void Chat00(string narration)
+    {
+        ChatText.text = narration;
+    }
+
+
+    // 원진씨 코드
+    IEnumerator Chat(string narration)
     {
         int a = 0;
         writerText = "";
@@ -29,14 +106,49 @@ public class TextManager : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
+                AiManager.instance.numberManager.turn++;
                 break;
             }
             yield return null;
         }
     }
 
-    IEnumerator TextPrint()
+    /*IEnumerator TextPrint()
     {
+        switch (AiManager.instance.numberManager.turn)
+        {
+            case 0:
+                yield return StartCoroutine(Chat("Z...z..z"));
+                isText = true;
+                break;
+            case 1:
+                int randomNumber = Random.Range(1, 3);
+                switch (randomNumber)
+                {
+                    case 1:
+                        yield return StartCoroutine(Chat("어 뭐야 학식추천 받으려고?"));
+                        HideAndShow();
+                        break;
+                    case 2:
+                        yield return StartCoroutine(Chat("뭐야.... 학식추천 받을래?"));
+                        HideAndShow();
+                        break;
+                }
+                break;
+            case 2:
+                if (AiManager.instance.numberManager.chooseYesorNo == 1)
+                {
+                    Chat00("좋아, 지금 너가 있는곳은 어디야?");
+                    HideAndShow();
+                }
+                else if (AiManager.instance.numberManager.chooseYesorNo == 2)
+                {
+                    Chat00("뭐야 그럼 왜깨운거야;;");
+                    HideAndShow();
+                }
+                    break;
+        }
+        
         if (AiManager.instance.numberManager.turn == 0)
         {
             yield return StartCoroutine(Chat(1, "Z...z..z"));
@@ -109,7 +221,7 @@ public class TextManager : MonoBehaviour
                 }
                 else if (randomNumber == 5)
                 {
-                    yield return StartCoroutine(Chat(5, "내가 맛있는걸로 추천할테니 위치를 알려줘"));
+                    yield return StartCoroutine(Chat( "내가 맛있는걸로 추천할테니 위치를 알려줘"));
                     HideAndShow();
                 }
                 AiManager.instance.numberManager.turn = 3;
@@ -119,22 +231,22 @@ public class TextManager : MonoBehaviour
                 int randomNumber = Random.Range(1, 7);
                 if (randomNumber == 1)
                 {
-                    yield return StartCoroutine(Chat(1, "뭐야 그럼 왜깨운거야;;"));
+                    yield return StartCoroutine(Chat("뭐야 그럼 왜깨운거야;;"));
                     HideAndShow();
                 }
                 else if (randomNumber == 2)
                 {
-                    yield return StartCoroutine(Chat(2, "다시 잘래...."));
+                    yield return StartCoroutine(Chat("다시 잘래...."));
                     HideAndShow();
                 }
                 else if (randomNumber == 3)
                 {
-                    yield return StartCoroutine(Chat(3, "필요할때 다시 불러줘"));
+                    yield return StartCoroutine(Chat("필요할때 다시 불러줘"));
                     HideAndShow();
                 }
                 else if (randomNumber == 4)
                 {
-                    yield return StartCoroutine(Chat(4, "깨워놓고 너무하다 ㅡ_ㅡ"));
+                    yield return StartCoroutine(Chat("깨워놓고 너무하다 ㅡ_ㅡ"));
                     HideAndShow();
                 }
                 else if (randomNumber == 5)
@@ -151,29 +263,7 @@ public class TextManager : MonoBehaviour
             }
 
         }
-
-        if (AiManager.instance.numberManager.turn == 3)
-        {
-            //AiManager.instance.numberManager.turn++;
-        }
-        if (AiManager.instance.numberManager.turn == 4)
-        {
-            //AiManager.instance.numberManager.turn++;
-        }
-        if (AiManager.instance.numberManager.turn == 5)
-        {
-            //AiManager.instance.numberManager.turn++;
-        }
-        if (AiManager.instance.numberManager.turn == 6)
-        {
-            //AiManager.instance.numberManager.turn++;
-        }
-        if (AiManager.instance.numberManager.turn == 7)
-        {
-            //AiManager.instance.numberManager.turn++;
-        }
-    }
-
+    }*/
     public void HideAndShow()
     {
         if (NextUI != null)
