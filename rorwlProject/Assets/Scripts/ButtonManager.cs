@@ -19,11 +19,8 @@ public class ButtonManager : MonoBehaviour
     {
         switch (AiManager.instance.numberManager.turn) 
         {
-            case 1:
-                AiManager.instance.numberManager.chooseYesorNo = btNumber;
-                break;
             case 2:
-                //AiManager.instance.numberManager.choosePlaceNum = btNumber;
+                AiManager.instance.numberManager.chooseYesorNo = btNumber;
                 AiManager.instance.numberManager.turn++;
                 break;
             case 4:

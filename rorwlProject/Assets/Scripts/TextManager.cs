@@ -9,10 +9,19 @@ public class TextManager : MonoBehaviour
     public Text ChatText;  //채팅이 나오는 텍스트
 
     public string writerText = "";
+    public bool isText;
 
-    void Start()
+    /*void Start()
     {
         StartCoroutine(TextPrint());
+    }*/
+
+    private void Update()
+    {
+        if (!isText)
+        {
+            StartCoroutine(TextPrint());
+        }
     }
 
     IEnumerator Chat(int num, string narration)
@@ -29,6 +38,7 @@ public class TextManager : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
+                isText = false;
                 break;
             }
             yield return null;
@@ -42,6 +52,7 @@ public class TextManager : MonoBehaviour
             yield return StartCoroutine(Chat(1, "Z...z..z"));
             AiManager.instance.numberManager.turn = 1;
         }
+
         if (AiManager.instance.numberManager.turn == 1)
         {
             int randomNumber = Random.Range(1, 8);
@@ -149,28 +160,6 @@ public class TextManager : MonoBehaviour
                 }
                 AiManager.instance.numberManager.turn++;
             }
-
-        }
-
-        if (AiManager.instance.numberManager.turn == 3)
-        {
-            //AiManager.instance.numberManager.turn++;
-        }
-        if (AiManager.instance.numberManager.turn == 4)
-        {
-            //AiManager.instance.numberManager.turn++;
-        }
-        if (AiManager.instance.numberManager.turn == 5)
-        {
-            //AiManager.instance.numberManager.turn++;
-        }
-        if (AiManager.instance.numberManager.turn == 6)
-        {
-            //AiManager.instance.numberManager.turn++;
-        }
-        if (AiManager.instance.numberManager.turn == 7)
-        {
-            //AiManager.instance.numberManager.turn++;
         }
     }
 
