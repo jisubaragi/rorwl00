@@ -9,6 +9,7 @@ public class ButtonManager : MonoBehaviour
     public GameObject UI;
     public GameObject NextUI;
     public bool ManagerOk = true;
+
     private void Update()
     {
         
@@ -21,20 +22,25 @@ public class ButtonManager : MonoBehaviour
             case 1:
                 AiManager.instance.numberManager.chooseYesorNo = btNumber;
                 break;
-            case 3:
-                AiManager.instance.numberManager.choosePlaceNum = btNumber;
+            case 2:
+                //AiManager.instance.numberManager.choosePlaceNum = btNumber;
+                AiManager.instance.numberManager.turn++;
                 break;
             case 4:
                 AiManager.instance.numberManager.chooseWeatherNum = btNumber;
+                AiManager.instance.numberManager.turn++;
                 break;
             case 5:
                 AiManager.instance.numberManager.chooseTempNum = btNumber;
+                AiManager.instance.numberManager.turn++;
                 break;
             case 6:
                 AiManager.instance.numberManager.chooseSmallKindNum = btNumber;
+                AiManager.instance.numberManager.turn++;
                 break;
             case 7:
                 AiManager.instance.numberManager.chooseBigKindNum = btNumber;
+                AiManager.instance.numberManager.turn++;
                 break;
         }
 

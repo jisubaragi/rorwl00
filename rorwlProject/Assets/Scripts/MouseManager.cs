@@ -16,7 +16,7 @@ public class MouseManager : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)&&AiManager.instance.numberManager.turn == 2)
+        if (Input.GetMouseButtonDown(0)&&AiManager.instance.numberManager.turn == 3)
         {
                 Vector2 clickPosition = Input.mousePosition;
                 worldPosition = mainCamera.ScreenToWorldPoint(clickPosition);
