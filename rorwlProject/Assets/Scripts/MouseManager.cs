@@ -16,12 +16,13 @@ public class MouseManager : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)&&AiManager.instance.numberManager.turn == 3)
+        if (Input.GetMouseButtonDown(0)&&AiManager.instance.numberManager.turn == 2)
         {
                 Vector2 clickPosition = Input.mousePosition;
                 worldPosition = mainCamera.ScreenToWorldPoint(clickPosition);
                 AiManager.instance.numberManager.choosePlaceNum = FindClosestPoint() + 1;
                 AiManager.instance.numberManager.turn++;
+            TextManager.instance.isText = false;
 
                 NextUI.SetActive(true);
                 UI.SetActive(false);
