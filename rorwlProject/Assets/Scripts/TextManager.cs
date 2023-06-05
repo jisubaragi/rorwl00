@@ -90,6 +90,8 @@ public class TextManager : MonoBehaviour
         ChatText.text = narration;
     }
 
+
+    // 원진씨 코드
     IEnumerator Chat(string narration)
     {
         int a = 0;
