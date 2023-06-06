@@ -9,7 +9,7 @@ public class TextManager : MonoBehaviour
 
     public GameObject NextUI;
     public TypeEffect ChatText;  //채팅이 나오는 텍스트
-    public Image AIimage;     //AI이미지 저장
+    public Animator AIanim;     //AI이미지 저장
     public Animator AIpanel;                 //AI이미지 올라갔다 내려오는 애니메이션
     public bool isText;
     public static bool isAction = false;  //Ai패널을 관리하는변수
@@ -49,30 +49,37 @@ public class TextManager : MonoBehaviour
                 switch (randomNumber)
                 {
                     case 1:
+                        AIanim.SetInteger("isFace", 1);
                         ChatText.SetMsg("어 뭐야 학식추천 받으려고?");
                         HideAndShow();
                         break;
                     case 2:
+                        AIanim.SetInteger("isFace", 1);
                         ChatText.SetMsg("뭐야.... 학식추천 받을래?");
                         HideAndShow();
                         break;
                     case 3:
+                        AIanim.SetInteger("isFace", 1);
                         ChatText.SetMsg("하암~ 잘잤다. 학식추천 해줄까?");
                         HideAndShow();
                         break;
                     case 4:
+                        AIanim.SetInteger("isFace", 1);
                         ChatText.SetMsg("왜불러... 학식추천 필요해?");
                         HideAndShow();
                         break;
                     case 5:
+                        AIanim.SetInteger("isFace", 1);
                         ChatText.SetMsg("이런... 학식추천 해줄게");
                         HideAndShow();
                         break;
                     case 6:
+                        AIanim.SetInteger("isFace", 1);
                         ChatText.SetMsg("개운하다~ 학식추천 필요해?");
                         HideAndShow();
                         break;
                     case 7:
+                        AIanim.SetInteger("isFace", 1);
                         ChatText.SetMsg("아.. 왜깨워... 좋은꿈 꾸고 있었는데.... 학식 추천 필요해?");
                         HideAndShow();
                         break;
