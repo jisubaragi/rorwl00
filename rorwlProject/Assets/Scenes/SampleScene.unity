@@ -5396,6 +5396,7 @@ MonoBehaviour:
   NextUI: {fileID: 1157937936}
   ChatText: {fileID: 782674623}
   writerText: 
+  isText: 0
 --- !u!1 &1655173532
 GameObject:
   m_ObjectHideFlags: 0
