@@ -9,6 +9,8 @@ public class TypeEffect : MonoBehaviour
     public GameObject EndCursor;
     public TextManager text;
     public GameObject MouseControll;
+    public Animator AIpanel;
+
     string targetMsg;       //표시할 문자열을 저장하는 변수
     Text msgText;
     int index;
@@ -28,14 +30,15 @@ public class TypeEffect : MonoBehaviour
         msgText.text = "";
         index = 0;
         EndCursor.SetActive(false);
+
         interval = 1.0f / CharPerSeconds;
         Invoke("Effecting", interval);      //애니메이션 재생
     }
     void Effecting()
     {
-        if(msgText.text==targetMsg)
+        if (msgText.text == targetMsg)
         {
-            if(AiManager.instance.numberManager.turn==2)
+            if (AiManager.instance.numberManager.turn == 2)
             {
                 text.AiHIde();
                 MouseControll.SetActive(true);
@@ -43,7 +46,7 @@ public class TypeEffect : MonoBehaviour
             EffectEnd();
             return;
         }
-        
+        AIpanel.SetTrigger("doEffect");
         msgText.text += targetMsg[index];
         index++;
 

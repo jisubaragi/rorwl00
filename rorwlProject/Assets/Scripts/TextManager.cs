@@ -42,20 +42,7 @@ public class TextManager : MonoBehaviour
         switch (AiManager.instance.numberManager.turn)
         {
             case 0:
-                int randomNumber777 = Random.Range(1, 3);
-                switch (randomNumber777)
-                {
-                    case 1:
-                        ChatText.SetMsg("어 뭐야 학식추천 받으려고?");
-                        break;
-                    case 2:
                         Chat00("Z...z..z");
-                        ChatText.SetMsg("뭐야.... 학식추천 받을래?");
-                        break;
-                    case 3:
-                        ChatText.SetMsg("뭐야.... 학식추천 받을래?");
-                        break;
-                }
                 break;
             case 1:
                 int randomNumber = Random.Range(1, 8);
