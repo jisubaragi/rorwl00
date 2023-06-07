@@ -15,7 +15,7 @@ C:/Users/김민준/OneDrive/바탕 화면/객체지향프로젝트/rorwl00/rorwl
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64898
+52320
 Successfully changed project path to: C:/Users/김민준/OneDrive/바탕 화면/객체지향프로젝트/rorwl00/rorwlProject
 C:/Users/김민준/OneDrive/바탕 화면/객체지향프로젝트/rorwl00/rorwlProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/김민준/OneDrive/바탕 화면/객체지향프로젝트/rorwl00/rorwl
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15848] Host "[IP] 172.16.0.142 [Port] 0 [Flags] 2 [Guid] 1388177470 [EditorId] 1388177470 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RU2O4I0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [30476] Host "[IP] 192.168.0.18 [Port] 0 [Flags] 2 [Guid] 4032749629 [EditorId] 4032749629 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RU2O4I0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15848] Host "[IP] 172.16.0.142 [Port] 0 [Flags] 2 [Guid] 1388177470 [EditorId] 1388177470 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RU2O4I0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30476] Host "[IP] 192.168.0.18 [Port] 0 [Flags] 2 [Guid] 4032749629 [EditorId] 4032749629 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RU2O4I0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 218.65 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 180.29 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
@@ -67,93 +67,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.030770 seconds.
+Registered in 0.025623 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 687 ms
-Refreshing native plugins compatible for Editor in 164.26 ms, found 4 plugins.
+Android Extension - Scanning For ADB Devices 744 ms
+Refreshing native plugins compatible for Editor in 166.33 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.522 seconds
+- Completed reload, in  2.336 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2522ms)
-		BeginReloadAssembly (368ms)
+	ReloadAssembly (2337ms)
+		BeginReloadAssembly (204ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (8ms)
-		EndReloadAssembly (1888ms)
-			LoadAssemblies (356ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1897ms)
+			LoadAssemblies (201ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (413ms)
+			SetupTypeCache (217ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (1315ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (1433ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (818ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (164ms)
+				InitializePlatformSupportModulesInManaged (923ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (166ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (222ms)
-				ProcessInitializeOnLoadMethodAttributes (107ms)
+				ProcessInitializeOnLoadAttributes (244ms)
+				ProcessInitializeOnLoadMethodAttributes (96ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.044966 seconds.
+Registered in 0.019401 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\김민준\OneDrive\바탕 화면\객체지향프로젝트\rorwl00\rorwlProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\김민준\OneDrive\바탕 화면\객체지향프로젝트\rorwl00\rorwlProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 156.79 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 255.86 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.710 seconds
+- Completed reload, in  3.283 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2711ms)
-		BeginReloadAssembly (253ms)
+	ReloadAssembly (3285ms)
+		BeginReloadAssembly (369ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (16ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (2231ms)
-			LoadAssemblies (427ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (2588ms)
+			LoadAssemblies (371ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (488ms)
+			SetupTypeCache (659ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (142ms)
-			SetupLoadedEditorAssemblies (1098ms)
+			RebuildScriptCaches (141ms)
+			SetupLoadedEditorAssemblies (1356ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (34ms)
+				InitializePlatformSupportModulesInManaged (48ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (157ms)
-				BeforeProcessingInitializeOnLoad (226ms)
-				ProcessInitializeOnLoadAttributes (578ms)
-				ProcessInitializeOnLoadMethodAttributes (82ms)
-				AfterProcessingInitializeOnLoad (20ms)
+				RefreshPlugins (256ms)
+				BeforeProcessingInitializeOnLoad (253ms)
+				ProcessInitializeOnLoadAttributes (665ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (28ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 1.17 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3743 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (56.2 KB). Loaded Objects now: 4204.
-Memory consumption went from 148.5 MB to 148.5 MB.
-Total: 8.835200 ms (FindLiveObjects: 0.625900 ms CreateObjectMapping: 0.537800 ms MarkObjects: 7.525400 ms  DeleteObjects: 0.143800 ms)
+Unloading 35 unused Assets / (56.1 KB). Loaded Objects now: 4206.
+Memory consumption went from 148.6 MB to 148.6 MB.
+Total: 7.361100 ms (FindLiveObjects: 0.562000 ms CreateObjectMapping: 0.513200 ms MarkObjects: 6.126000 ms  DeleteObjects: 0.157500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,91 +167,1906 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1297484.918080 seconds.
-  path: Assets/FoodPrefabs/공대Prefabs/라면공방/Food(공방김밥).prefab
-  artifactKey: Guid(7c9d1718e5010bd4996b099ac130946a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodPrefabs/공대Prefabs/라면공방/Food(공방김밥).prefab using Guid(7c9d1718e5010bd4996b099ac130946a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b79227efe848b92cf2651d0d264bc5') in 0.384622 seconds 
+  Time since last request: 1462532.936489 seconds.
+  path: Assets/Sprites/아람
+  artifactKey: Guid(e24f501d78ca1f2478f0388da8e4e210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람 using Guid(e24f501d78ca1f2478f0388da8e4e210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ec1e721976c5827337816f2f19cf81') in 0.029926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.393975 seconds.
+  path: Assets/Sprites/아람/덮밥
+  artifactKey: Guid(a39a909b0269522458a8ffc26baed23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/덮밥 using Guid(a39a909b0269522458a8ffc26baed23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678874a69659838ef95a04af04f90b10') in 0.025110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.971078 seconds.
+  path: Assets/Sprites/아람/덮밥/대패삼겹덮밥.jpg
+  artifactKey: Guid(591484dec4a003e49b8628de3b74b4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/덮밥/대패삼겹덮밥.jpg using Guid(591484dec4a003e49b8628de3b74b4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2e2bf295b3d5bebd148f9d15c196e2') in 0.217140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/아람/덮밥/즉석고추장불고기.jpg
+  artifactKey: Guid(cb3a5e9df1a749044bc09a1da2a79e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/덮밥/즉석고추장불고기.jpg using Guid(cb3a5e9df1a749044bc09a1da2a79e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63135a6702e221c3b4399046d3a5d483') in 0.113070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/아람/덮밥/즉석돈불고기덮밥.jpg
+  artifactKey: Guid(a4eb1286563194448a6e6a69cc28e2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/덮밥/즉석돈불고기덮밥.jpg using Guid(a4eb1286563194448a6e6a69cc28e2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79f96e4f4b7afc2856546751af5a621') in 0.151140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/아람/덮밥/치킨마요.jpg
+  artifactKey: Guid(498ecff2f411b2d46b14b8c0d545d19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/덮밥/치킨마요.jpg using Guid(498ecff2f411b2d46b14b8c0d545d19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41ebbcc83efdd4319e264945caa54e9') in 0.072366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sprites/아람/덮밥/핫치킨마요.jpg
+  artifactKey: Guid(f2f5124fb7c86524eb44909f604a61d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/덮밥/핫치킨마요.jpg using Guid(f2f5124fb7c86524eb44909f604a61d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a470142663e43cc9c896a14ef67bc08') in 0.091387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.611972 seconds.
+  path: Assets/Sprites/아람/덮밥/즉석돈불고기덮밥.jpg
+  artifactKey: Guid(a4eb1286563194448a6e6a69cc28e2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/덮밥/즉석돈불고기덮밥.jpg using Guid(a4eb1286563194448a6e6a69cc28e2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2ce4fbb63115b6b5cbf4301616e984') in 0.149156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sprites/아람/덮밥/즉석고추장불고기.jpg
+  artifactKey: Guid(cb3a5e9df1a749044bc09a1da2a79e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/덮밥/즉석고추장불고기.jpg using Guid(cb3a5e9df1a749044bc09a1da2a79e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4edee7f464dfc049dbd0fac3009b1061') in 0.123992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/아람/덮밥/대패삼겹덮밥.jpg
+  artifactKey: Guid(591484dec4a003e49b8628de3b74b4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/덮밥/대패삼겹덮밥.jpg using Guid(591484dec4a003e49b8628de3b74b4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9da4fd56be0c65f2cbba32b1e3341c8') in 0.051793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/아람/덮밥/치킨마요.jpg
+  artifactKey: Guid(498ecff2f411b2d46b14b8c0d545d19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/덮밥/치킨마요.jpg using Guid(498ecff2f411b2d46b14b8c0d545d19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5df5c92f9be295f2d9693b44e2d79d5') in 0.042781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites/아람/덮밥/핫치킨마요.jpg
+  artifactKey: Guid(f2f5124fb7c86524eb44909f604a61d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/덮밥/핫치킨마요.jpg using Guid(f2f5124fb7c86524eb44909f604a61d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ddbb96543da303cf5c103dd9c190fc') in 0.046038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.183774 seconds.
+  path: Assets/Sprites/아람/뚝배기/돌솥김치볶음밥.jpg
+  artifactKey: Guid(22baad72c84e9cd4d85826473fbf0af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥김치볶음밥.jpg using Guid(22baad72c84e9cd4d85826473fbf0af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2027d88c1f128caffa83a0c08b7ee2') in 0.094631 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000046 seconds.
-  path: Assets/TopDown 2D RPG BE3/Readme.asset
-  artifactKey: Guid(4ff280a9fdc784d46beb69b6da783245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TopDown 2D RPG BE3/Readme.asset using Guid(4ff280a9fdc784d46beb69b6da783245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614a76cd3ae8d3015ae63f9d7c9c7115') in 0.032229 seconds 
+  path: Assets/Sprites/아람/뚝배기/돌솥양념불고기.jpg
+  artifactKey: Guid(2626145b9055d9a4b854675953fa0c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥양념불고기.jpg using Guid(2626145b9055d9a4b854675953fa0c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8172bbead80ebda478c113526578f95f') in 0.125311 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab
-  artifactKey: Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/Closed Sprite Shape.prefab using Guid(c0583b4e855c74b8c82e7b9b5efb5ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0548750fdcf7b12606f3a1e0ca9b11') in 0.057720 seconds 
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/아람/뚝배기/치즈알밥.jpg
+  artifactKey: Guid(fef650c083eeb9840bd5dde5e9fd0078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/치즈알밥.jpg using Guid(fef650c083eeb9840bd5dde5e9fd0078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f74372eb1413504130b63104fa697c6') in 0.070741 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/FoodPrefabs/공대Prefabs/라면공방/Food(대왕유부3종세트).prefab
-  artifactKey: Guid(654297ddb38b6254399b7c6eb9edda68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodPrefabs/공대Prefabs/라면공방/Food(대왕유부3종세트).prefab using Guid(654297ddb38b6254399b7c6eb9edda68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365ffd4171115dc614c694e3dc9ce382') in 0.038601 seconds 
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sprites/아람/뚝배기/돌솥치즈불닭.jpg
+  artifactKey: Guid(13265bcafb0556742b52f62773374500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥치즈불닭.jpg using Guid(13265bcafb0556742b52f62773374500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59dc428757667086ee453d2747e193bb') in 0.070049 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/FoodPrefabs/공대Prefabs/라면공방/Food(김치라면).prefab
-  artifactKey: Guid(2049a3d08979e61478cabedf326a0520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodPrefabs/공대Prefabs/라면공방/Food(김치라면).prefab using Guid(2049a3d08979e61478cabedf326a0520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441b2aba99717cc2250a6be3335faa8e') in 0.042943 seconds 
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/아람/뚝배기/뚝배기소불고기.jpg
+  artifactKey: Guid(c70326d70e9729b46856fa990a45de8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/뚝배기소불고기.jpg using Guid(c70326d70e9729b46856fa990a45de8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10090584207c1c3680065127437864f8') in 0.057748 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/FoodPrefabs/공대Prefabs/월남선생/Food(달걀야채볶음밥).prefab
-  artifactKey: Guid(bb06b2df1ba64dd49a7b569833f76925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodPrefabs/공대Prefabs/월남선생/Food(달걀야채볶음밥).prefab using Guid(bb06b2df1ba64dd49a7b569833f76925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f9c145762d5af886f447109715fcde') in 0.043097 seconds 
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sprites/아람/뚝배기/돌솥치즈불고기.jpg
+  artifactKey: Guid(cab7c36b9ca25fc4099c4fe8515eb17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥치즈불고기.jpg using Guid(cab7c36b9ca25fc4099c4fe8515eb17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd27a00183c886147900337dcbce2218') in 0.091178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites/아람/뚝배기/돌솥김치치즈볶음밥.jpg
+  artifactKey: Guid(71a3d33898ded1641bc09a47d805792b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥김치치즈볶음밥.jpg using Guid(71a3d33898ded1641bc09a47d805792b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786edcac0fee1e5a0f694641e46d8e23') in 0.105953 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000036 seconds.
-  path: Assets/FoodPrefabs/공대Prefabs/월남선생/Food(닭나랭).prefab
-  artifactKey: Guid(19562e13a51c4824e84143e16a6222cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodPrefabs/공대Prefabs/월남선생/Food(닭나랭).prefab using Guid(19562e13a51c4824e84143e16a6222cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c287ff395791fc52df22111ea0499602') in 0.037342 seconds 
+  path: Assets/Sprites/아람/뚝배기/참치즈알밥.jpg
+  artifactKey: Guid(b8988dad9d60778499bd3dea17a2f6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/참치즈알밥.jpg using Guid(b8988dad9d60778499bd3dea17a2f6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953952c921d3f7caaeaa4d23ece7528b') in 0.049937 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/FoodPrefabs/공대Prefabs/바비든든/Food(김양삼덮).prefab
-  artifactKey: Guid(9437d0b25b1e64b4d8e8d40caf9bad8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodPrefabs/공대Prefabs/바비든든/Food(김양삼덮).prefab using Guid(9437d0b25b1e64b4d8e8d40caf9bad8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d62daa6d73a60353a42da3575a1bed') in 0.051853 seconds 
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/아람/뚝배기/참치알밥.jpg
+  artifactKey: Guid(2d37bc13eda0ac24ca6b92881f5c9e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/참치알밥.jpg using Guid(2d37bc13eda0ac24ca6b92881f5c9e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3643984f6b8357456403d1d1d961a0b9') in 0.055726 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/FoodPrefabs/공대Prefabs/바비든든/Food(김치찌개).prefab
-  artifactKey: Guid(2df13253be8fbdb46baba232414f3ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodPrefabs/공대Prefabs/바비든든/Food(김치찌개).prefab using Guid(2df13253be8fbdb46baba232414f3ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7f13f088ed62a4c4582ac16b86cd54') in 0.040375 seconds 
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites/아람/뚝배기/돌솥핫치즈불닭.jpg
+  artifactKey: Guid(bf2c33de14c947647ba295686d81d533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥핫치즈불닭.jpg using Guid(bf2c33de14c947647ba295686d81d533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb22abe14509c35c26a8e627ddb8fa4d') in 0.044310 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4935f35005d3ccd51bf39964504ff1b7') in 0.029587 seconds 
+  Time since last request: 10.684813 seconds.
+  path: Assets/Sprites/아람/뚝배기/돌솥김치치즈볶음밥.jpg
+  artifactKey: Guid(71a3d33898ded1641bc09a47d805792b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥김치치즈볶음밥.jpg using Guid(71a3d33898ded1641bc09a47d805792b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644bd52b5c8912d02046c9c48bd3ec3d') in 0.121430 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/FoodPrefabs/공대Prefabs/월남선생/Food(닭냉쌀).prefab
-  artifactKey: Guid(8deb8da8c37775447a25638276cb01ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodPrefabs/공대Prefabs/월남선생/Food(닭냉쌀).prefab using Guid(8deb8da8c37775447a25638276cb01ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa336db0a6bfc1ddee210797911b462f') in 0.043180 seconds 
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites/아람/뚝배기/돌솥양념불고기.jpg
+  artifactKey: Guid(2626145b9055d9a4b854675953fa0c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥양념불고기.jpg using Guid(2626145b9055d9a4b854675953fa0c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8561b43f304b276335e5858df3b4f332') in 0.141194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Sprites/아람/뚝배기/치즈알밥.jpg
+  artifactKey: Guid(fef650c083eeb9840bd5dde5e9fd0078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/치즈알밥.jpg using Guid(fef650c083eeb9840bd5dde5e9fd0078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52e8ce61a1fab07ab9c6777ab99c16c') in 0.038052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/아람/뚝배기/돌솥치즈불닭.jpg
+  artifactKey: Guid(13265bcafb0556742b52f62773374500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥치즈불닭.jpg using Guid(13265bcafb0556742b52f62773374500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344abaf7cd16c82df025dc5b2f6b404c') in 0.074781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/아람/뚝배기/뚝배기소불고기.jpg
+  artifactKey: Guid(c70326d70e9729b46856fa990a45de8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/뚝배기소불고기.jpg using Guid(c70326d70e9729b46856fa990a45de8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e3f3fd5b6e3537aa3ad9c6abf04573') in 0.061081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/아람/뚝배기/돌솥치즈불고기.jpg
+  artifactKey: Guid(cab7c36b9ca25fc4099c4fe8515eb17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥치즈불고기.jpg using Guid(cab7c36b9ca25fc4099c4fe8515eb17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e94e1af98bc7a822bb17f63fc1f437b') in 0.142591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Sprites/아람/뚝배기/돌솥김치볶음밥.jpg
+  artifactKey: Guid(22baad72c84e9cd4d85826473fbf0af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥김치볶음밥.jpg using Guid(22baad72c84e9cd4d85826473fbf0af1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932a5f27d5212661bed810b1443dcffa') in 0.199483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/아람/뚝배기/참치즈알밥.jpg
+  artifactKey: Guid(b8988dad9d60778499bd3dea17a2f6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/참치즈알밥.jpg using Guid(b8988dad9d60778499bd3dea17a2f6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5659a4188b0cfbffd6d9f7800600893') in 0.067842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/아람/뚝배기/참치알밥.jpg
+  artifactKey: Guid(2d37bc13eda0ac24ca6b92881f5c9e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/참치알밥.jpg using Guid(2d37bc13eda0ac24ca6b92881f5c9e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8bfa65e61509b213f89c523a0dbfaea') in 0.122341 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000035 seconds.
-  path: Assets/FoodPrefabs/공대Prefabs/구시아돈가스/Food(냉모밀).prefab
-  artifactKey: Guid(1d9a03c2cbd653840b14cebaf4f67dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodPrefabs/공대Prefabs/구시아돈가스/Food(냉모밀).prefab using Guid(1d9a03c2cbd653840b14cebaf4f67dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f9518fded5d39f17cf1493465e2c68') in 0.042913 seconds 
+  path: Assets/Sprites/아람/뚝배기/돌솥핫치즈불닭.jpg
+  artifactKey: Guid(bf2c33de14c947647ba295686d81d533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥핫치즈불닭.jpg using Guid(bf2c33de14c947647ba295686d81d533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f0ee3848a8e8906213c793c6358e44') in 0.044228 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/TopDown 2D RPG BE3/App Icon.png
-  artifactKey: Guid(e15a0aaf619d8aa429bd091186fb29a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TopDown 2D RPG BE3/App Icon.png using Guid(e15a0aaf619d8aa429bd091186fb29a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5a6d358a6c684159b7c6c3d9d058e7') in 0.216277 seconds 
+  Time since last request: 1.284698 seconds.
+  path: Assets/Sprites/아람/라이스/돈까스마요.jpg
+  artifactKey: Guid(01a48b0ad79c930419f9f5fa56476012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/라이스/돈까스마요.jpg using Guid(01a48b0ad79c930419f9f5fa56476012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943d97895740d65dadfd95e47ec7281b') in 0.084100 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000048 seconds.
-  path: Assets/FoodPrefabs/공대Prefabs/라면공방/Food(공방라면).prefab
-  artifactKey: Guid(8221fad5eea2a1a4cacfbbb1f46c93cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FoodPrefabs/공대Prefabs/라면공방/Food(공방라면).prefab using Guid(8221fad5eea2a1a4cacfbbb1f46c93cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af59bff8c32c4915126d63328534b21') in 0.041762 seconds 
+  path: Assets/Sprites/아람/라이스/떡갈비라이스.jpg
+  artifactKey: Guid(5b1454708a33184458e688aebe99c6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/라이스/떡갈비라이스.jpg using Guid(5b1454708a33184458e688aebe99c6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8630c65beb4ef84a459c11a5735bfab0') in 0.094841 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.060716 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef0b6829d3d168863483e514ef26513') in 0.022956 seconds 
+  Time since last request: 2.408926 seconds.
+  path: Assets/Sprites/아람/라이스/떡갈비.jfif
+  artifactKey: Guid(474f67c0b4be1284396b734d976e1f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/라이스/떡갈비.jfif using Guid(474f67c0b4be1284396b734d976e1f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3220bad67d946222f8699092539d954d') in 0.034930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.772917 seconds.
+  path: Assets/Sprites/신바/가락우동.png
+  artifactKey: Guid(fbdd70d0c545fea4ca794e91e49babde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/신바/가락우동.png using Guid(fbdd70d0c545fea4ca794e91e49babde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b25bed9475e1f93e6a4dba1f7483350') in 0.082177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/신바/고소한참치김밥.png
+  artifactKey: Guid(13fe9b7b85f73634993223ccf335d5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/신바/고소한참치김밥.png using Guid(13fe9b7b85f73634993223ccf335d5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3ecca1cc4e7337d6acdd16fa40935f') in 0.065969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Sprites/신바/김밥.png
+  artifactKey: Guid(8e87388e25fdf474098dadf1873e00e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/신바/김밥.png using Guid(8e87388e25fdf474098dadf1873e00e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6451574ca32fd3a6abf89dce0d4d34') in 0.078956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sprites/신바/더블치즈버거.png
+  artifactKey: Guid(bd93453a58d798e4f8b5fdf82754d678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/신바/더블치즈버거.png using Guid(bd93453a58d798e4f8b5fdf82754d678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4db2bf44885d8868ac1adbde964c0ba') in 0.056560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/신바/김치찌개.png
+  artifactKey: Guid(443cf188eb44585438e4215de9fa54e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/신바/김치찌개.png using Guid(443cf188eb44585438e4215de9fa54e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a03312bd75ae067c532a41f491771f0') in 0.064679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/신바/고구마치즈돈까스.png
+  artifactKey: Guid(3cd20be5fe1c7844aa8ae3204ebb1ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/신바/고구마치즈돈까스.png using Guid(3cd20be5fe1c7844aa8ae3204ebb1ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a577dabaef3e8a8b0d56c77ce6cc6a') in 0.068072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/신바/돈가스.png
+  artifactKey: Guid(27f344c3627177943bd7b1af1305e573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/신바/돈가스.png using Guid(27f344c3627177943bd7b1af1305e573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa524519921504dcbbb96880f1fa8de') in 0.085001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/신바/계란비빔밥.png
+  artifactKey: Guid(80a926de9a951104fb5a0a4216230981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/신바/계란비빔밥.png using Guid(80a926de9a951104fb5a0a4216230981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee68204a839119d810019ccdf270d3e4') in 0.063240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/신바/갈비탕.png
+  artifactKey: Guid(0ef0582d90f2f76489037a13214d5524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/신바/갈비탕.png using Guid(0ef0582d90f2f76489037a13214d5524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ba5966ccaff778a3481ce4a39758cd') in 0.051041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/신바/날치알 리조또.png
+  artifactKey: Guid(cfb9c13ee56ff724ba3f87a041f87f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/신바/날치알 리조또.png using Guid(cfb9c13ee56ff724ba3f87a041f87f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5639350b0b34acb60aacdf91a0794d6a') in 0.059452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/신바/냉짬뽕.png
+  artifactKey: Guid(e6230c82fdfbc294581009d428c12812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/신바/냉짬뽕.png using Guid(e6230c82fdfbc294581009d428c12812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7762558f0e6c8f02a4917f80e2bddad') in 0.088898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1645.654147 seconds.
+  path: Assets/Sprites/아람/덮밥/대패삼겹덮밥.png
+  artifactKey: Guid(62c74d2faa0da98439b1971867580ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/덮밥/대패삼겹덮밥.png using Guid(62c74d2faa0da98439b1971867580ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9174d8a2cfaed0039297cad696a1594') in 0.051478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Sprites/아람/덮밥/치킨마요.png
+  artifactKey: Guid(2e9bf858ce9344840bd1caab01785218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/덮밥/치킨마요.png using Guid(2e9bf858ce9344840bd1caab01785218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796d2dce8c21a8f24db2005be4ed99dd') in 0.054807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Sprites/아람/덮밥/즉석고추장불고기.png
+  artifactKey: Guid(52487b1af6d6a40469ae2a93cc1b950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/덮밥/즉석고추장불고기.png using Guid(52487b1af6d6a40469ae2a93cc1b950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed85162c35da18d9efed9bde658d4d9a') in 0.088641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Sprites/아람/덮밥/핫치킨마요.png
+  artifactKey: Guid(2357cc1ff9231c844bc3d6f162d7b376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/덮밥/핫치킨마요.png using Guid(2357cc1ff9231c844bc3d6f162d7b376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ab423c32c1398dc123635948962e22') in 0.077808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/아람/덮밥/즉석돈불고기덮밥.png
+  artifactKey: Guid(1f77a3a36953d4a458b72a7ac34ec866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/덮밥/즉석돈불고기덮밥.png using Guid(1f77a3a36953d4a458b72a7ac34ec866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd760af0e98c382a8679114372736e03') in 0.059710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.963273 seconds.
+  path: Assets/Sprites/아람/덮밥/대패삼겹덮밥.png
+  artifactKey: Guid(62c74d2faa0da98439b1971867580ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/덮밥/대패삼겹덮밥.png using Guid(62c74d2faa0da98439b1971867580ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bdec3804b2ef2352a5a5dc87fe65ad') in 0.067013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056140 seconds.
+  path: Assets/Sprites/아람/덮밥/즉석고추장불고기.png
+  artifactKey: Guid(52487b1af6d6a40469ae2a93cc1b950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/덮밥/즉석고추장불고기.png using Guid(52487b1af6d6a40469ae2a93cc1b950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a4641fd9e8110a2c3bf3ad2c11f2b7') in 0.071859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Sprites/아람/덮밥/치킨마요.png
+  artifactKey: Guid(2e9bf858ce9344840bd1caab01785218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/덮밥/치킨마요.png using Guid(2e9bf858ce9344840bd1caab01785218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de09dc684126606cc88dc70d44c493f') in 0.056217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/아람/덮밥/핫치킨마요.png
+  artifactKey: Guid(2357cc1ff9231c844bc3d6f162d7b376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/덮밥/핫치킨마요.png using Guid(2357cc1ff9231c844bc3d6f162d7b376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8294553e38bb3d94880361fea519ae76') in 0.067372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/아람/덮밥/즉석돈불고기덮밥.png
+  artifactKey: Guid(1f77a3a36953d4a458b72a7ac34ec866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/덮밥/즉석돈불고기덮밥.png using Guid(1f77a3a36953d4a458b72a7ac34ec866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba17537bfdbc17c4eff00e02a232b53') in 0.057113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.011351 seconds.
+  path: Assets/Sprites/아람/뚝배기/돌솥김치볶음밥.png
+  artifactKey: Guid(e84d58aa686b9b347935ef98e75af29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥김치볶음밥.png using Guid(e84d58aa686b9b347935ef98e75af29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5795fbaca88788a5b1e01c6f7b4a39') in 0.061855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/아람/뚝배기/돌솥치즈불고기.png
+  artifactKey: Guid(6aaab95f5654edf42809d67b7ddcf7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥치즈불고기.png using Guid(6aaab95f5654edf42809d67b7ddcf7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48721522287984bbe0ae387e607847d') in 0.067267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/아람/뚝배기/돌솥양념불고기.png
+  artifactKey: Guid(655c5c97e2489a844b1d389baca632fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥양념불고기.png using Guid(655c5c97e2489a844b1d389baca632fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4429174559caf6ff951ed7e77cbfd7ec') in 0.061763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Sprites/아람/뚝배기/돌솥치즈불닭.png
+  artifactKey: Guid(98213c2d1b6b5d6448d46a2dee8ecc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥치즈불닭.png using Guid(98213c2d1b6b5d6448d46a2dee8ecc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed46e22a384ba7e9b60906a11accc5db') in 0.055746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Sprites/아람/뚝배기/돌솥핫치즈불닭.png
+  artifactKey: Guid(60f69602958f37d469ca179654d5c6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥핫치즈불닭.png using Guid(60f69602958f37d469ca179654d5c6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30c33a2bf630c3ff946f4b6eec3e857') in 0.057693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/아람/뚝배기/참치알밥.png
+  artifactKey: Guid(f22cd1e6dfe7d8a4e85d67be119ba768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/참치알밥.png using Guid(f22cd1e6dfe7d8a4e85d67be119ba768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d7407391e24d75d33de6854569d5de') in 0.063622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/아람/뚝배기/참치즈알밥.png
+  artifactKey: Guid(564841161b345a24098f3f6f44fc30f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/참치즈알밥.png using Guid(564841161b345a24098f3f6f44fc30f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc200a737e34e3a3af91e4e44070737') in 0.054918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/아람/뚝배기/뚝배기소불고기.png
+  artifactKey: Guid(5f129e6f64248024f88493855f6e9e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/뚝배기소불고기.png using Guid(5f129e6f64248024f88493855f6e9e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1241dc534d16d9d9f8e9af33b0e93f04') in 0.056605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/아람/뚝배기/돌솥김치치즈볶음밥.png
+  artifactKey: Guid(743f9ac5c8f980941845e666777219df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥김치치즈볶음밥.png using Guid(743f9ac5c8f980941845e666777219df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9b05da9a9356573c4fdc517d827f8b') in 0.070942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/아람/뚝배기/치즈알밥.png
+  artifactKey: Guid(5ecba859bae1269428343b0c598d688b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/치즈알밥.png using Guid(5ecba859bae1269428343b0c598d688b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eade24c0d1b4f3d6c151f516b46ba9d') in 0.081305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.940019 seconds.
+  path: Assets/Sprites/아람/뚝배기/돌솥치즈불고기.png
+  artifactKey: Guid(6aaab95f5654edf42809d67b7ddcf7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥치즈불고기.png using Guid(6aaab95f5654edf42809d67b7ddcf7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cef5a6f1599b19fc875a2547c4d8845') in 0.077856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007561 seconds.
+  path: Assets/Sprites/아람/뚝배기/돌솥김치볶음밥.png
+  artifactKey: Guid(e84d58aa686b9b347935ef98e75af29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥김치볶음밥.png using Guid(e84d58aa686b9b347935ef98e75af29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1c1a4f0fd8362b155b1868b9662310') in 0.069103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/아람/뚝배기/돌솥양념불고기.png
+  artifactKey: Guid(655c5c97e2489a844b1d389baca632fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥양념불고기.png using Guid(655c5c97e2489a844b1d389baca632fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2423c465dd9018b8c827caeae8f38a67') in 0.143440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/아람/뚝배기/돌솥치즈불닭.png
+  artifactKey: Guid(98213c2d1b6b5d6448d46a2dee8ecc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥치즈불닭.png using Guid(98213c2d1b6b5d6448d46a2dee8ecc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4dfa2627c31d40217140412498251bc') in 0.071720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Sprites/아람/뚝배기/돌솥핫치즈불닭.png
+  artifactKey: Guid(60f69602958f37d469ca179654d5c6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥핫치즈불닭.png using Guid(60f69602958f37d469ca179654d5c6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce353b33bdb14404433a39840c144c14') in 0.059054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/아람/뚝배기/참치알밥.png
+  artifactKey: Guid(f22cd1e6dfe7d8a4e85d67be119ba768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/참치알밥.png using Guid(f22cd1e6dfe7d8a4e85d67be119ba768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb863c9a837867202255aaf9d73ab6c5') in 0.065524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/아람/뚝배기/참치즈알밥.png
+  artifactKey: Guid(564841161b345a24098f3f6f44fc30f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/참치즈알밥.png using Guid(564841161b345a24098f3f6f44fc30f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abb4f7229754aef88e131d44708380e') in 0.065399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/아람/뚝배기/뚝배기소불고기.png
+  artifactKey: Guid(5f129e6f64248024f88493855f6e9e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/뚝배기소불고기.png using Guid(5f129e6f64248024f88493855f6e9e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684e3c6277b9c5d2900209d4fda8abc9') in 0.104544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/아람/뚝배기/돌솥김치치즈볶음밥.png
+  artifactKey: Guid(743f9ac5c8f980941845e666777219df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/돌솥김치치즈볶음밥.png using Guid(743f9ac5c8f980941845e666777219df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70518374a634219b59dba6f0404cf92') in 0.060952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/아람/뚝배기/치즈알밥.png
+  artifactKey: Guid(5ecba859bae1269428343b0c598d688b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/뚝배기/치즈알밥.png using Guid(5ecba859bae1269428343b0c598d688b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6cc4c1e024f12abf328d538836a926') in 0.075383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.570974 seconds.
+  path: Assets/Sprites/아람/라이스/돈까스마요.png
+  artifactKey: Guid(1e0bb127b658c994b853eb1f7d4642d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/라이스/돈까스마요.png using Guid(1e0bb127b658c994b853eb1f7d4642d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab74a721a0b5332094b5f43b36ee417c') in 0.056008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/아람/라이스/치킨까스마요.png
+  artifactKey: Guid(8d5e66c742bb17340abd5e6c08b5a3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/라이스/치킨까스마요.png using Guid(8d5e66c742bb17340abd5e6c08b5a3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e94a86b767a2d5de8e0bd8e49ce5f7f') in 0.072349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/아람/라이스/불고기라이스.png
+  artifactKey: Guid(2d097c4db2d688b4eb3085bd1eb0be64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/라이스/불고기라이스.png using Guid(2d097c4db2d688b4eb3085bd1eb0be64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7995671a487ef6c674a49814fe4b13f7') in 0.098784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/아람/라이스/떡갈비.png
+  artifactKey: Guid(d5f8dc3c3f03bce4fb859112788ba599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/라이스/떡갈비.png using Guid(d5f8dc3c3f03bce4fb859112788ba599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1201f45f6063015a4e115a0289c86371') in 0.079014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Sprites/아람/라이스/떡갈비라이스.png
+  artifactKey: Guid(5bae1134229d83e469309d3d2e2a8eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/라이스/떡갈비라이스.png using Guid(5bae1134229d83e469309d3d2e2a8eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e27496dd25e515443037e50e57d257c') in 0.060902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/아람/라이스/카레라이스.png
+  artifactKey: Guid(9c776f6a194903444b15d5a37636b330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/라이스/카레라이스.png using Guid(9c776f6a194903444b15d5a37636b330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28bed3ff7c3ee916b2f216d33781156') in 0.076307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.427240 seconds.
+  path: Assets/Sprites/아람/라이스/돈까스마요.png
+  artifactKey: Guid(1e0bb127b658c994b853eb1f7d4642d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/라이스/돈까스마요.png using Guid(1e0bb127b658c994b853eb1f7d4642d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ea021e7dd7ad7bbec200b681da83d4') in 0.049752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062437 seconds.
+  path: Assets/Sprites/아람/라이스/떡갈비.png
+  artifactKey: Guid(d5f8dc3c3f03bce4fb859112788ba599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/라이스/떡갈비.png using Guid(d5f8dc3c3f03bce4fb859112788ba599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7842977754660ee34dd642719b9cab7') in 0.053456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/아람/라이스/치킨까스마요.png
+  artifactKey: Guid(8d5e66c742bb17340abd5e6c08b5a3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/라이스/치킨까스마요.png using Guid(8d5e66c742bb17340abd5e6c08b5a3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a6404e6cd96f9b93cd7776e62db81f') in 0.057417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Sprites/아람/라이스/불고기라이스.png
+  artifactKey: Guid(2d097c4db2d688b4eb3085bd1eb0be64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/라이스/불고기라이스.png using Guid(2d097c4db2d688b4eb3085bd1eb0be64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b9962dc9172fd1caae72403ceab11c') in 0.057964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sprites/아람/라이스/떡갈비라이스.png
+  artifactKey: Guid(5bae1134229d83e469309d3d2e2a8eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/라이스/떡갈비라이스.png using Guid(5bae1134229d83e469309d3d2e2a8eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c79e01632ac6e59859fda83e4d4eb2') in 0.066681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/아람/라이스/카레라이스.png
+  artifactKey: Guid(9c776f6a194903444b15d5a37636b330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/라이스/카레라이스.png using Guid(9c776f6a194903444b15d5a37636b330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be6dc4977f5060eb5fc1face474acd5') in 0.057642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.948974 seconds.
+  path: Assets/Sprites/아람/분식/김치우동.png
+  artifactKey: Guid(1fbd5f11d1155e2428786ba496530794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/김치우동.png using Guid(1fbd5f11d1155e2428786ba496530794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87f65c868210c7c97a10f1b52972ba2') in 0.067675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/아람/분식/물냉면.png
+  artifactKey: Guid(63b16e25d8089ed4f89b2f071ec80e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/물냉면.png using Guid(63b16e25d8089ed4f89b2f071ec80e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd7863a278e8cd0d5cb090a44817012') in 0.059190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/아람/분식/반반냉면.png
+  artifactKey: Guid(14b8e2795a559a845bf9e51cb6ec7be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/반반냉면.png using Guid(14b8e2795a559a845bf9e51cb6ec7be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1395eca441d2a205828b20252c17e9ca') in 0.080646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/아람/분식/만두라면.png
+  artifactKey: Guid(0802ec84e4e60ad4eaf35eea4460e68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/만두라면.png using Guid(0802ec84e4e60ad4eaf35eea4460e68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3806660bf170e94d44b693550cfb0007') in 0.065049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Sprites/아람/분식/떡라면.png
+  artifactKey: Guid(12d389aedb689c049b1585343830933e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/떡라면.png using Guid(12d389aedb689c049b1585343830933e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2da77d89122d4493c6b735504799d3') in 0.066345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/아람/분식/잔치국수.png
+  artifactKey: Guid(2fa6ef0b694cd2245890baaf4155fe77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/잔치국수.png using Guid(2fa6ef0b694cd2245890baaf4155fe77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ef20f751e82c0d539c7048cd7165dfb') in 0.086143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/아람/분식/만두전골.png
+  artifactKey: Guid(62c068622a53ccd47846edf016af647e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/만두전골.png using Guid(62c068622a53ccd47846edf016af647e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e894d7cdaced4855545f6eaa08cc7a1b') in 0.070987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/아람/분식/얼큰이라면.png
+  artifactKey: Guid(c8d77e441f434ff4987d3aeacbbb7655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/얼큰이라면.png using Guid(c8d77e441f434ff4987d3aeacbbb7655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d86ef07855905524ed8c7f7a3be2c7') in 0.072429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/아람/분식/라면밥.png
+  artifactKey: Guid(bc00109acc8bb594f8217f6465f73cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/라면밥.png using Guid(bc00109acc8bb594f8217f6465f73cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2f5449dc496f572463d49692a7de70') in 0.078902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/아람/분식/우동.png
+  artifactKey: Guid(0aac4999242b9d8489d9bbb1f657107e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/우동.png using Guid(0aac4999242b9d8489d9bbb1f657107e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f707efaaa3eb21a2bd5f946d6c8112') in 0.071228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/아람/분식/비빔냉면.png
+  artifactKey: Guid(ac14f574bda2618429abe475175217b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/비빔냉면.png using Guid(ac14f574bda2618429abe475175217b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0a88210aa6033e7ac5bcb7e713dfec') in 0.068104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.597503 seconds.
+  path: Assets/Sprites/아람/분식/쫄면.png
+  artifactKey: Guid(b1093a3231483f445b80a65561ae27f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/쫄면.png using Guid(b1093a3231483f445b80a65561ae27f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c438fdaf3914ca0d271b73f3e8f301d9') in 0.092683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/아람/분식/치즈라면.png
+  artifactKey: Guid(6d9f65ee8ac8946489202814683107e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/치즈라면.png using Guid(6d9f65ee8ac8946489202814683107e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2934f55ec03c56d4dd53972132f665e8') in 0.056238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.141807 seconds.
+  path: Assets/Sprites/아람/분식/콩나물신라면.png
+  artifactKey: Guid(7e574680cf2a2d646b6681048895d690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/콩나물신라면.png using Guid(7e574680cf2a2d646b6681048895d690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79fdd763ba59f26974c798f0992586f') in 0.065881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.957156 seconds.
+  path: Assets/Sprites/아람/분식/라면밥.png
+  artifactKey: Guid(bc00109acc8bb594f8217f6465f73cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/라면밥.png using Guid(bc00109acc8bb594f8217f6465f73cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22dfad2949e528a944eedc6bdf45bac') in 0.058527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024684 seconds.
+  path: Assets/Sprites/아람/분식/김치우동.png
+  artifactKey: Guid(1fbd5f11d1155e2428786ba496530794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/김치우동.png using Guid(1fbd5f11d1155e2428786ba496530794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e85e1ea28542f79640c569a00a5ae5b') in 0.090750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Sprites/아람/분식/물냉면.png
+  artifactKey: Guid(63b16e25d8089ed4f89b2f071ec80e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/물냉면.png using Guid(63b16e25d8089ed4f89b2f071ec80e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a19ce237c468b668ee7217d9ed08ad8') in 0.065762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/아람/분식/반반냉면.png
+  artifactKey: Guid(14b8e2795a559a845bf9e51cb6ec7be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/반반냉면.png using Guid(14b8e2795a559a845bf9e51cb6ec7be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74db5eb2faf0b22d823844b9189b25fe') in 0.050765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sprites/아람/분식/만두라면.png
+  artifactKey: Guid(0802ec84e4e60ad4eaf35eea4460e68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/만두라면.png using Guid(0802ec84e4e60ad4eaf35eea4460e68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485c8a20cdd5e200bd175b39060de9e9') in 0.045017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/아람/분식/떡라면.png
+  artifactKey: Guid(12d389aedb689c049b1585343830933e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/떡라면.png using Guid(12d389aedb689c049b1585343830933e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb793414d6ce41ca3f6e38f19212eca') in 0.070305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/아람/분식/잔치국수.png
+  artifactKey: Guid(2fa6ef0b694cd2245890baaf4155fe77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/잔치국수.png using Guid(2fa6ef0b694cd2245890baaf4155fe77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63445ec169e1c3d8ae8b121911779c9d') in 0.051962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/아람/분식/만두전골.png
+  artifactKey: Guid(62c068622a53ccd47846edf016af647e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/만두전골.png using Guid(62c068622a53ccd47846edf016af647e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788b99f88a15b9360a6cdbd115c43156') in 0.056735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Sprites/아람/분식/얼큰이라면.png
+  artifactKey: Guid(c8d77e441f434ff4987d3aeacbbb7655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/얼큰이라면.png using Guid(c8d77e441f434ff4987d3aeacbbb7655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01cc5526eb58a104b601803f66a43922') in 0.072922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/아람/분식/우동.png
+  artifactKey: Guid(0aac4999242b9d8489d9bbb1f657107e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/우동.png using Guid(0aac4999242b9d8489d9bbb1f657107e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a2cfa7ea1272f435094f8116c316cf5') in 0.065757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/아람/분식/비빔냉면.png
+  artifactKey: Guid(ac14f574bda2618429abe475175217b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/비빔냉면.png using Guid(ac14f574bda2618429abe475175217b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e348e54b86e0388160f6d7c140b266') in 0.064474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.866691 seconds.
+  path: Assets/Sprites/아람/스파게티/베이컨까르보나라스파게티.png
+  artifactKey: Guid(3609b4c78a5ccca46821d68a761ff1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/스파게티/베이컨까르보나라스파게티.png using Guid(3609b4c78a5ccca46821d68a761ff1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b2f265262f00ee5d82df16c4a96d14') in 0.062326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/아람/스파게티/빠네 베이컨 까르보나라.png
+  artifactKey: Guid(62ef52d023b6d8e499b9066adeac3bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/스파게티/빠네 베이컨 까르보나라.png using Guid(62ef52d023b6d8e499b9066adeac3bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6308801f8e547c6959ba3810c5cd22d') in 0.076350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Sprites/아람/스파게티/해산물크림스파게티.png
+  artifactKey: Guid(c9917f877c35c8b44a93fa14b4a6dad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/스파게티/해산물크림스파게티.png using Guid(c9917f877c35c8b44a93fa14b4a6dad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1194489bf635adb2d3ce9029aa62ea3') in 0.058507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/아람/스파게티/에그 베이컨까르보나라.png
+  artifactKey: Guid(77f5e662a79584242a17fb86f9dd4ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/스파게티/에그 베이컨까르보나라.png using Guid(77f5e662a79584242a17fb86f9dd4ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e1af4564dc3679f6ae032f1a566903') in 0.061056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/아람/스파게티/체다치즈로제스파게티.png
+  artifactKey: Guid(714d8a2490076414bad94089e8b5a5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/스파게티/체다치즈로제스파게티.png using Guid(714d8a2490076414bad94089e8b5a5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58c64dc7ea6f7aebdf57ab7c9c4b30c') in 0.061304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/아람/스파게티/토마토베이컨.png
+  artifactKey: Guid(4db74791e6f64c8458dcdb7ec80d37aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/스파게티/토마토베이컨.png using Guid(4db74791e6f64c8458dcdb7ec80d37aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79f91e0b5066a17985bce340d96c69f') in 0.070372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/아람/스파게티/토마토해산물.png
+  artifactKey: Guid(ec915179fee9a144493019c89b366327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/스파게티/토마토해산물.png using Guid(ec915179fee9a144493019c89b366327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f07f166033983636ed45215abab256') in 0.076928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.920075 seconds.
+  path: Assets/Sprites/아람/스파게티/에그 베이컨까르보나라.png
+  artifactKey: Guid(77f5e662a79584242a17fb86f9dd4ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/스파게티/에그 베이컨까르보나라.png using Guid(77f5e662a79584242a17fb86f9dd4ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7224ce2ef1f914800abcd707db539ab') in 0.062275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016209 seconds.
+  path: Assets/Sprites/아람/스파게티/베이컨까르보나라스파게티.png
+  artifactKey: Guid(3609b4c78a5ccca46821d68a761ff1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/스파게티/베이컨까르보나라스파게티.png using Guid(3609b4c78a5ccca46821d68a761ff1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25427202f6b4901ba02c60f755a54229') in 0.055044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/아람/스파게티/빠네 베이컨 까르보나라.png
+  artifactKey: Guid(62ef52d023b6d8e499b9066adeac3bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/스파게티/빠네 베이컨 까르보나라.png using Guid(62ef52d023b6d8e499b9066adeac3bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1cf1b0fed34db9bd4c53e3fe7a6873d') in 0.090031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/아람/스파게티/해산물크림스파게티.png
+  artifactKey: Guid(c9917f877c35c8b44a93fa14b4a6dad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/스파게티/해산물크림스파게티.png using Guid(c9917f877c35c8b44a93fa14b4a6dad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7682d68fa3336082a7bbf58c5d97f4a') in 0.079668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sprites/아람/스파게티/체다치즈로제스파게티.png
+  artifactKey: Guid(714d8a2490076414bad94089e8b5a5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/스파게티/체다치즈로제스파게티.png using Guid(714d8a2490076414bad94089e8b5a5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c95d789269e98b25e8db88d7dbd3be9') in 0.060691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sprites/아람/스파게티/토마토베이컨.png
+  artifactKey: Guid(4db74791e6f64c8458dcdb7ec80d37aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/스파게티/토마토베이컨.png using Guid(4db74791e6f64c8458dcdb7ec80d37aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9324ab7cc38332334ade5b2ebe202be6') in 0.058739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/아람/스파게티/토마토해산물.png
+  artifactKey: Guid(ec915179fee9a144493019c89b366327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/스파게티/토마토해산물.png using Guid(ec915179fee9a144493019c89b366327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4346e4014dc723f5aeafff2b106d54ab') in 0.052579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.871332 seconds.
+  path: Assets/Sprites/아람/양식/고구마치즈돈까스.png
+  artifactKey: Guid(dbb26dc24eec25c4b81d4bfac4e2ce7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/양식/고구마치즈돈까스.png using Guid(dbb26dc24eec25c4b81d4bfac4e2ce7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44aae8870124257e5cb1ba1665bd2f32') in 0.052514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Sprites/아람/양식/매콤불닭 돈까스.png
+  artifactKey: Guid(c116db50d6402cf4f92fd82454da5dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/양식/매콤불닭 돈까스.png using Guid(c116db50d6402cf4f92fd82454da5dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c41dde40bc1267b60dbd154d3942bb7') in 0.066853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Sprites/아람/양식/순살치킨까스.png
+  artifactKey: Guid(94466505a2917c84e8ddc9aafe092d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/양식/순살치킨까스.png using Guid(94466505a2917c84e8ddc9aafe092d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de447d35c4b9184fd2f42dd6f2236450') in 0.070627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/아람/양식/치반돈반.png
+  artifactKey: Guid(f24370e6967775e4f98f6a33a9385fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/양식/치반돈반.png using Guid(f24370e6967775e4f98f6a33a9385fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d81f1a74e362bf9a9caca0858db72d1') in 0.059909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/아람/양식/수제돈까스.png
+  artifactKey: Guid(b81d4ae95ed560b42ba9796444056d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/양식/수제돈까스.png using Guid(b81d4ae95ed560b42ba9796444056d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2d12a5b3ad63ea216510550a22899b') in 0.061107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/아람/양식/치즈돈까스.png
+  artifactKey: Guid(05ea07aa6c165694fb5a2e76456bb889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/양식/치즈돈까스.png using Guid(05ea07aa6c165694fb5a2e76456bb889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abb7171f4405fb43484a82896da74e2') in 0.058169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Sprites/아람/양식/고반돈반.png
+  artifactKey: Guid(694c9605fd4c4824a97f17d4347f1eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/양식/고반돈반.png using Guid(694c9605fd4c4824a97f17d4347f1eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fecc778af7a5d315df5d1b412485305') in 0.067844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sprites/아람/양식/데리야끼돈까스.png
+  artifactKey: Guid(7ce88343a36fca94ca57ec486250e288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/양식/데리야끼돈까스.png using Guid(7ce88343a36fca94ca57ec486250e288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d55e0afb529a088436440286dde758') in 0.088312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.395593 seconds.
+  path: Assets/Sprites/아람/양식/매콤불닭 돈까스.png
+  artifactKey: Guid(c116db50d6402cf4f92fd82454da5dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/양식/매콤불닭 돈까스.png using Guid(c116db50d6402cf4f92fd82454da5dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba94cd7a4e77a3241609b9bddbda68a3') in 0.061346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020576 seconds.
+  path: Assets/Sprites/아람/양식/고구마치즈돈까스.png
+  artifactKey: Guid(dbb26dc24eec25c4b81d4bfac4e2ce7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/양식/고구마치즈돈까스.png using Guid(dbb26dc24eec25c4b81d4bfac4e2ce7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bc8ba5677b0fd312071ece17fbb0af') in 0.059991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Sprites/아람/양식/순살치킨까스.png
+  artifactKey: Guid(94466505a2917c84e8ddc9aafe092d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/양식/순살치킨까스.png using Guid(94466505a2917c84e8ddc9aafe092d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc69a075bffd7dfb1aecec87ef7ba14f') in 0.085840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/아람/양식/치반돈반.png
+  artifactKey: Guid(f24370e6967775e4f98f6a33a9385fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/양식/치반돈반.png using Guid(f24370e6967775e4f98f6a33a9385fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a320de94f8b31166fe06a156d6aaf0e7') in 0.079492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/아람/양식/수제돈까스.png
+  artifactKey: Guid(b81d4ae95ed560b42ba9796444056d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/양식/수제돈까스.png using Guid(b81d4ae95ed560b42ba9796444056d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236c013758f82e2f0f76b7bc96eb820a') in 0.099832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/아람/양식/치즈돈까스.png
+  artifactKey: Guid(05ea07aa6c165694fb5a2e76456bb889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/양식/치즈돈까스.png using Guid(05ea07aa6c165694fb5a2e76456bb889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c10f52eb501e089d9e8dd710e84387') in 0.143527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/아람/양식/고반돈반.png
+  artifactKey: Guid(694c9605fd4c4824a97f17d4347f1eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/양식/고반돈반.png using Guid(694c9605fd4c4824a97f17d4347f1eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcef2679026de3519d1e3659640e946f') in 0.072502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites/아람/양식/데리야끼돈까스.png
+  artifactKey: Guid(7ce88343a36fca94ca57ec486250e288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/양식/데리야끼돈까스.png using Guid(7ce88343a36fca94ca57ec486250e288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ec37d9eaa034f297aeb005ad85df7e') in 0.047933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.311002 seconds.
+  path: Assets/Sprites/아람/찌개/김치짜글이.png
+  artifactKey: Guid(b5b85e2a63a76004a8ccfb6e1d554c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/찌개/김치짜글이.png using Guid(b5b85e2a63a76004a8ccfb6e1d554c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a40eefe1b77aa2017bf24b6850f919') in 0.060977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/아람/찌개/치즈양념갈비찜.png
+  artifactKey: Guid(96e1bd51936741d47ab21e243c5ec6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/찌개/치즈양념갈비찜.png using Guid(96e1bd51936741d47ab21e243c5ec6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a9e64dfbd8216a0f2fe6d0310545ec') in 0.065501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sprites/아람/찌개/비빔밥 된장찌개.png
+  artifactKey: Guid(4729138ebbbf9a548865a787b69f79b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/찌개/비빔밥 된장찌개.png using Guid(4729138ebbbf9a548865a787b69f79b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3002ffac6115d1eabc07117aca54184') in 0.063227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/아람/찌개/대게장순두부찌개.png
+  artifactKey: Guid(a6829f95cee19d14993829bdd2a26b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/찌개/대게장순두부찌개.png using Guid(a6829f95cee19d14993829bdd2a26b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855bbc66f05afc66664db97c48878f69') in 0.056558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sprites/아람/찌개/부대찌개.png
+  artifactKey: Guid(d58f20f05df9cd94ca55eadc54db4199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/찌개/부대찌개.png using Guid(d58f20f05df9cd94ca55eadc54db4199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e68fcf6295095173245eeb8712d0ea') in 0.057897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sprites/아람/찌개/꼬막비빔밥.png
+  artifactKey: Guid(f9660c15b4fd62042b4425ec3aada4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/찌개/꼬막비빔밥.png using Guid(f9660c15b4fd62042b4425ec3aada4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd059a86506c5c79f25d1ed72b4b0472c') in 0.064534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/아람/찌개/양념갈비찜.png
+  artifactKey: Guid(10ca19dffcc7a704892d19e1c6367099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/찌개/양념갈비찜.png using Guid(10ca19dffcc7a704892d19e1c6367099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5477553587fae50c47bf5ccc377781ad') in 0.057310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Sprites/아람/찌개/순두부찌개.png
+  artifactKey: Guid(2f61a611906b70c42a6b9f1820d6c1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/찌개/순두부찌개.png using Guid(2f61a611906b70c42a6b9f1820d6c1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7941578edaf2a2554a1b44230da10dd4') in 0.057489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.703257 seconds.
+  path: Assets/Sprites/아람/찌개/양념갈비찜.png
+  artifactKey: Guid(10ca19dffcc7a704892d19e1c6367099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/찌개/양념갈비찜.png using Guid(10ca19dffcc7a704892d19e1c6367099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d876e0cd36d0a715a73359a5b64094') in 0.069456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014611 seconds.
+  path: Assets/Sprites/아람/찌개/김치짜글이.png
+  artifactKey: Guid(b5b85e2a63a76004a8ccfb6e1d554c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/찌개/김치짜글이.png using Guid(b5b85e2a63a76004a8ccfb6e1d554c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f924bd7f2b7cc4584e1aa2606f34de1b') in 0.062051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/아람/찌개/치즈양념갈비찜.png
+  artifactKey: Guid(96e1bd51936741d47ab21e243c5ec6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/찌개/치즈양념갈비찜.png using Guid(96e1bd51936741d47ab21e243c5ec6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6192d83d8c78b6f493074474f1e3df') in 0.082848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/아람/찌개/비빔밥 된장찌개.png
+  artifactKey: Guid(4729138ebbbf9a548865a787b69f79b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/찌개/비빔밥 된장찌개.png using Guid(4729138ebbbf9a548865a787b69f79b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730c2985b53527b1a46f99ced5227769') in 0.055618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/아람/찌개/대게장순두부찌개.png
+  artifactKey: Guid(a6829f95cee19d14993829bdd2a26b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/찌개/대게장순두부찌개.png using Guid(a6829f95cee19d14993829bdd2a26b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82673968e36760280d15b9d90bca1d7') in 0.081516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/아람/찌개/부대찌개.png
+  artifactKey: Guid(d58f20f05df9cd94ca55eadc54db4199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/찌개/부대찌개.png using Guid(d58f20f05df9cd94ca55eadc54db4199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ad95a2efae697b966e49244bb7a082') in 0.051668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sprites/아람/찌개/꼬막비빔밥.png
+  artifactKey: Guid(f9660c15b4fd62042b4425ec3aada4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/찌개/꼬막비빔밥.png using Guid(f9660c15b4fd62042b4425ec3aada4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173b15a19e27d9e82888d8763975d4dd') in 0.061925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/아람/찌개/순두부찌개.png
+  artifactKey: Guid(2f61a611906b70c42a6b9f1820d6c1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/찌개/순두부찌개.png using Guid(2f61a611906b70c42a6b9f1820d6c1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a04729a549454f2ff082895f631fbef') in 0.055434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.061778 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs
+  artifactKey: Guid(126feca9f83ce8e4b8886444747dc70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs using Guid(126feca9f83ce8e4b8886444747dc70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4450cbbb0ac1e91401b9c98d7c2871e7') in 0.029455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.803337 seconds.
+  path: Assets/FoodPrefabs/공대Prefabs/편의점 샌드위치.prefab
+  artifactKey: Guid(7b70a88d7edc684468d6708f246262ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/공대Prefabs/편의점 샌드위치.prefab using Guid(7b70a88d7edc684468d6708f246262ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc62eaf5c8ed0915b377ec16d595fcb') in 0.214685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/FoodPrefabs/공대Prefabs/편의점 햄버거.prefab
+  artifactKey: Guid(9be4ee3723aa6d146ad07d54bd71feb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/공대Prefabs/편의점 햄버거.prefab using Guid(9be4ee3723aa6d146ad07d54bd71feb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1acd759ff1df9eb587f86ed04dbc1cde') in 0.058839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.321736 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/대패삼겹덮밥.prefab
+  artifactKey: Guid(b0f822ddbe48237419d3ccfc4fcf3d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/대패삼겹덮밥.prefab using Guid(b0f822ddbe48237419d3ccfc4fcf3d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbce5bc8be1f91e8880a555dfa072af') in 0.040563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.445168 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/즉석고추장불고기.prefab
+  artifactKey: Guid(55466176d3849614681384507719e2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/즉석고추장불고기.prefab using Guid(55466176d3849614681384507719e2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412c158ca46fd0a60f31cac6c8021b7e') in 0.046999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.507066 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/즉석돈불고기덮밥.prefab
+  artifactKey: Guid(b04dfeb98973ec84396c71b6b89d2722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/즉석돈불고기덮밥.prefab using Guid(b04dfeb98973ec84396c71b6b89d2722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3912d47b7dba6f07b9839d3da0bb1760') in 0.039816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.833854 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/치킨마요.prefab
+  artifactKey: Guid(dc2fc4d4eb8dcdb41b092c99d0c5b9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/치킨마요.prefab using Guid(dc2fc4d4eb8dcdb41b092c99d0c5b9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4279a205854aae2fba211f954e8b569e') in 0.044313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.940421 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/핫치킨마요.prefab
+  artifactKey: Guid(785869a6b94c32b448129e0184691a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/핫치킨마요.prefab using Guid(785869a6b94c32b448129e0184691a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a838a5e8de3fd316d985d84fa9fe5384') in 0.037052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.943571 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/돌솥김치볶음밥.prefab
+  artifactKey: Guid(cc955235e0164fd4797b64fd87a6eb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/돌솥김치볶음밥.prefab using Guid(cc955235e0164fd4797b64fd87a6eb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816ced5ae51f8edd27df2a1ea155793a') in 0.033475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.939112 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/돌솥김치치즈볶음밥.prefab
+  artifactKey: Guid(1f02ea9fe28613f4a8d8c5a76a43382b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/돌솥김치치즈볶음밥.prefab using Guid(1f02ea9fe28613f4a8d8c5a76a43382b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72f6fcce5f62ba53d2837bc52b40dea') in 0.045411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.961075 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/돌솥양념불고기.prefab
+  artifactKey: Guid(4b7c162d30beb1c40b41b66a1b8bed53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/돌솥양념불고기.prefab using Guid(4b7c162d30beb1c40b41b66a1b8bed53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f7f80840f35ddeb445166a001937f5') in 0.053460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.603786 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/돌솥치즈불고기.prefab
+  artifactKey: Guid(1de9b31594ab0c342a34cd61d36f0170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/돌솥치즈불고기.prefab using Guid(1de9b31594ab0c342a34cd61d36f0170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747fdf631b6e98b72f1cd856d4b54ebb') in 0.035939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.231034 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/돌솥치즈불닭.prefab
+  artifactKey: Guid(9b08f6481f426d24792a6f570cd3dd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/돌솥치즈불닭.prefab using Guid(9b08f6481f426d24792a6f570cd3dd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04052f5a84813f100d252b260224c77') in 0.035523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.025842 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/돌솥핫치즈불닭.prefab
+  artifactKey: Guid(2247d96bc6d686c4596a9cd77256f422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/돌솥핫치즈불닭.prefab using Guid(2247d96bc6d686c4596a9cd77256f422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704df8d98cd43c6a87dcd56795266193') in 0.039576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.357291 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/뚝배기소불고기.prefab
+  artifactKey: Guid(829c967d3e0e2834fbef40bf7e9c9c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/뚝배기소불고기.prefab using Guid(829c967d3e0e2834fbef40bf7e9c9c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720ab45ff638d143036dfb13153b6292') in 0.035859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.224522 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/참치알밥.prefab
+  artifactKey: Guid(36951038388121b42b619cfbee4480c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/참치알밥.prefab using Guid(36951038388121b42b619cfbee4480c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440dd88c98bf964ad5f7d7bdc863d0af') in 0.043417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.029051 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/대패삼겹덮밥.prefab
+  artifactKey: Guid(b0f822ddbe48237419d3ccfc4fcf3d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/대패삼겹덮밥.prefab using Guid(b0f822ddbe48237419d3ccfc4fcf3d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd730c2746130f874e20ac71ca5f6e13f') in 0.039383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022262 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/돌솥김치볶음밥.prefab
+  artifactKey: Guid(cc955235e0164fd4797b64fd87a6eb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/돌솥김치볶음밥.prefab using Guid(cc955235e0164fd4797b64fd87a6eb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf31d109e46c162a0949d422741c808') in 0.043887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/돌솥치즈불닭.prefab
+  artifactKey: Guid(9b08f6481f426d24792a6f570cd3dd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/돌솥치즈불닭.prefab using Guid(9b08f6481f426d24792a6f570cd3dd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61b93fb72cea9eb55f737e8bfa38641') in 0.082728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/뚝배기소불고기.prefab
+  artifactKey: Guid(829c967d3e0e2834fbef40bf7e9c9c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/뚝배기소불고기.prefab using Guid(829c967d3e0e2834fbef40bf7e9c9c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1160d4bbba67d18a7119f546e3d4c74') in 0.040187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/즉석돈불고기덮밥.prefab
+  artifactKey: Guid(b04dfeb98973ec84396c71b6b89d2722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/즉석돈불고기덮밥.prefab using Guid(b04dfeb98973ec84396c71b6b89d2722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63afe09f3f78106caeea27eb4dfb6aad') in 0.051291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/돌솥치즈불고기.prefab
+  artifactKey: Guid(1de9b31594ab0c342a34cd61d36f0170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/돌솥치즈불고기.prefab using Guid(1de9b31594ab0c342a34cd61d36f0170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8567309349a6dcd3c8b63d8aa7431dcb') in 0.065449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/돌솥양념불고기.prefab
+  artifactKey: Guid(4b7c162d30beb1c40b41b66a1b8bed53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/돌솥양념불고기.prefab using Guid(4b7c162d30beb1c40b41b66a1b8bed53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462a4ad164429968e46fb016a2032928') in 0.031258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/참치알밥.prefab
+  artifactKey: Guid(36951038388121b42b619cfbee4480c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/참치알밥.prefab using Guid(36951038388121b42b619cfbee4480c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4b6513e3aa21fd971597e0fb077931') in 0.047339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/돌솥김치치즈볶음밥.prefab
+  artifactKey: Guid(1f02ea9fe28613f4a8d8c5a76a43382b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/돌솥김치치즈볶음밥.prefab using Guid(1f02ea9fe28613f4a8d8c5a76a43382b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a30e6e0ae3d48866c59725dd3f1cbd3') in 0.037993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/돌솥핫치즈불닭.prefab
+  artifactKey: Guid(2247d96bc6d686c4596a9cd77256f422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/돌솥핫치즈불닭.prefab using Guid(2247d96bc6d686c4596a9cd77256f422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5080c8d1b8d3273b8da3fcec95bc9bdf') in 0.047339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/즉석고추장불고기.prefab
+  artifactKey: Guid(55466176d3849614681384507719e2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/즉석고추장불고기.prefab using Guid(55466176d3849614681384507719e2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a88a0601ffcf3f33fd6be9c503306a2') in 0.037966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.312770 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/참치즈알밥.prefab
+  artifactKey: Guid(26744111619716045b4bf1f98cb62a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/참치즈알밥.prefab using Guid(26744111619716045b4bf1f98cb62a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5184d43f9ae2e8794c035afec1d8cb7c') in 0.052873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007677 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/치킨마요.prefab
+  artifactKey: Guid(dc2fc4d4eb8dcdb41b092c99d0c5b9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/치킨마요.prefab using Guid(dc2fc4d4eb8dcdb41b092c99d0c5b9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4cefdd5bc221ddeeefe552ea29f1c8') in 0.056049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/핫치킨마요.prefab
+  artifactKey: Guid(785869a6b94c32b448129e0184691a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/핫치킨마요.prefab using Guid(785869a6b94c32b448129e0184691a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d5c4a776968ac97cc22c57de61de29') in 0.049398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.966785 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/치즈알밥.prefab
+  artifactKey: Guid(261ff29c8f3bdc04eaa51d4b49b62cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/치즈알밥.prefab using Guid(261ff29c8f3bdc04eaa51d4b49b62cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59998ede3ea2b04ac0652e1ff929894a') in 0.040333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.408329 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/돈까스마요.prefab
+  artifactKey: Guid(5fd4fec231d5d1c419d104df6817a2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/돈까스마요.prefab using Guid(5fd4fec231d5d1c419d104df6817a2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675a4890e1c5874e110abab115ed5d2a') in 0.041706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.858369 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/떡갈비.prefab
+  artifactKey: Guid(e7549af871e0b1a498d913c799a6f43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/떡갈비.prefab using Guid(e7549af871e0b1a498d913c799a6f43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460fe4fa856ae364a7cab15559e392f9') in 0.037126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.730218 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/떡갈비라이스.prefab
+  artifactKey: Guid(7f7504789e4b349478a6fc336005b192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/떡갈비라이스.prefab using Guid(7f7504789e4b349478a6fc336005b192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1bac0fb5832dac723e3193e52398f1') in 0.036659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.184092 seconds.
+  path: Assets/Sprites/아람/분식/쫄면.png
+  artifactKey: Guid(b1093a3231483f445b80a65561ae27f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/쫄면.png using Guid(b1093a3231483f445b80a65561ae27f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f7024b603a59a47d30ce3d545c2e3c') in 0.050303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/아람/분식/콩나물신라면.png
+  artifactKey: Guid(7e574680cf2a2d646b6681048895d690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/콩나물신라면.png using Guid(7e574680cf2a2d646b6681048895d690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc57269093047a612d98ffe83bdf56f') in 0.063618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sprites/아람/분식/치즈라면.png
+  artifactKey: Guid(6d9f65ee8ac8946489202814683107e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/아람/분식/치즈라면.png using Guid(6d9f65ee8ac8946489202814683107e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8f62f9378af9e8bdb15763abaaa22e') in 0.085835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.171961 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/불고기라이스.prefab
+  artifactKey: Guid(fef6f4da06312664b9e8099509468b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/불고기라이스.prefab using Guid(fef6f4da06312664b9e8099509468b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121ba621dcf56c34d90312938284e1bc') in 0.034087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.205520 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/치킨까스마요.prefab
+  artifactKey: Guid(2eddd9bc1c2b5044ab50d37ea9860b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/치킨까스마요.prefab using Guid(2eddd9bc1c2b5044ab50d37ea9860b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f0fe4ea80d0e4030a4b1c1de21a6a6') in 0.041214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.055253 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/카레라이스.prefab
+  artifactKey: Guid(c05daef758fbd1d4a98fe88cf7470d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/카레라이스.prefab using Guid(c05daef758fbd1d4a98fe88cf7470d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f7e73ed81b25d1c7298c20d564d37f9') in 0.041230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.338817 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/김치우동.prefab
+  artifactKey: Guid(7307312e83fb3c740a52aaf034cba160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/김치우동.prefab using Guid(7307312e83fb3c740a52aaf034cba160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebfd04581fd96ad578add5829b0b742') in 0.040580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.689673 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/떡라면.prefab
+  artifactKey: Guid(727aa8f027239614a9d2b4fa498a67af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/떡라면.prefab using Guid(727aa8f027239614a9d2b4fa498a67af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4792eaa7f2ee5aa079260d5cd951732') in 0.043191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.976707 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/라면밥.prefab
+  artifactKey: Guid(dccc397331543d540905fe9efa1379ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/라면밥.prefab using Guid(dccc397331543d540905fe9efa1379ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b16eb424b629fdd94a3261cb9019432') in 0.041593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.795253 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/만두라면.prefab
+  artifactKey: Guid(cd6c2088e3e6bab44890002782d4c02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/만두라면.prefab using Guid(cd6c2088e3e6bab44890002782d4c02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499c01f29b79ae66e43a3d0e5c72ed75') in 0.045167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.485374 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/만두전골.prefab
+  artifactKey: Guid(492056635a76192459ee1fb8c564d18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/만두전골.prefab using Guid(492056635a76192459ee1fb8c564d18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4b50a8885258e81e0cc232d9ae0da1') in 0.036367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.886491 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/물냉면.prefab
+  artifactKey: Guid(37a17a49245205044b0cc4cf5a2ce5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/물냉면.prefab using Guid(37a17a49245205044b0cc4cf5a2ce5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2432037517d1b0ffa6b9521d7fad19') in 0.034862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.261045 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/반반냉면.prefab
+  artifactKey: Guid(ea835515452527e4c8be81834efaccb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/반반냉면.prefab using Guid(ea835515452527e4c8be81834efaccb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e902e147abdc0682d39030954025367') in 0.044877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.287044 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/비빔냉면.prefab
+  artifactKey: Guid(1496894c304170743aacac0803d509e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/비빔냉면.prefab using Guid(1496894c304170743aacac0803d509e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30bf9b764d9417105c568af59b60ae4') in 0.075940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.456104 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/얼큰이라면.prefab
+  artifactKey: Guid(7d5c0fecfc39e0b48b4a323192f88db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/얼큰이라면.prefab using Guid(7d5c0fecfc39e0b48b4a323192f88db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8b1d8090962b51850ff56d42d94232') in 0.051195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.376873 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/우동.prefab
+  artifactKey: Guid(a14a2cbfb2cdb8e4696f8038969d8fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/우동.prefab using Guid(a14a2cbfb2cdb8e4696f8038969d8fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270a60b5f2f7dc202bc0248c2ac92b0e') in 0.036846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.057858 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/잔치국수.prefab
+  artifactKey: Guid(c71e3cf8de4d21d4a84c2a188b152c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/잔치국수.prefab using Guid(c71e3cf8de4d21d4a84c2a188b152c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebb124f2ac16a04efdd40395f243370') in 0.034346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.702455 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/쫄면.prefab
+  artifactKey: Guid(646662e727dd51044b73a9d06abbfa2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/쫄면.prefab using Guid(646662e727dd51044b73a9d06abbfa2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3dc7ac1f888655944359a792f80936') in 0.034956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.777973 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/치즈라면.prefab
+  artifactKey: Guid(643dd6b910e9f164da21c7facb095ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/치즈라면.prefab using Guid(643dd6b910e9f164da21c7facb095ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2563855efa28f4d992fcbd03487ed3a3') in 0.037235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.745539 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/콩나물신라면.prefab
+  artifactKey: Guid(0e23eedc5f1c82f478d6876a18007e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/콩나물신라면.prefab using Guid(0e23eedc5f1c82f478d6876a18007e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bb987cc9633ac938fb129ed2e2c01c') in 0.038391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.175090 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/베이컨까르보나라스파게티.prefab
+  artifactKey: Guid(e093ddc9c2f502a4996fa1836423dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/베이컨까르보나라스파게티.prefab using Guid(e093ddc9c2f502a4996fa1836423dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd18505007f1f2b8397a2dbb6066a29') in 0.053703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.178315 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/베이컨까르보나라스파게티 1.prefab
+  artifactKey: Guid(d10f0b841c7ed5249ba15352deea2d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/베이컨까르보나라스파게티 1.prefab using Guid(d10f0b841c7ed5249ba15352deea2d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1734aabe0d44124162c195e2800aae6f') in 0.056946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.338735 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/에그베이컨까르보나라.prefab
+  artifactKey: Guid(acd756e7f4686df4d8b690b8383376df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/에그베이컨까르보나라.prefab using Guid(acd756e7f4686df4d8b690b8383376df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6db13fc95431a1586c492e54969e077') in 0.047637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.256967 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/체다치즈로제스파게티.prefab
+  artifactKey: Guid(2303468f95d993d429ab2ca3d1e60311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/체다치즈로제스파게티.prefab using Guid(2303468f95d993d429ab2ca3d1e60311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34482e329ea25b50b96103c6e4aa5b16') in 0.062819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.698574 seconds.
+  path: Assets/FoodPrefabs/토마토베이컨.prefab
+  artifactKey: Guid(512b9acf265a0f64ab7295ee91ca41b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/토마토베이컨.prefab using Guid(512b9acf265a0f64ab7295ee91ca41b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba33b5a71949fb7c985fc1c88819bc67') in 0.036923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.223228 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/토마토해산물.prefab
+  artifactKey: Guid(21bca9be596db1f40ae184abe86c0afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/토마토해산물.prefab using Guid(21bca9be596db1f40ae184abe86c0afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2840a571b7011d676615dcdfcdf9cd73') in 0.036509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.266506 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/해산물크림스파게티.prefab
+  artifactKey: Guid(4271cbe8e97a1284e96ebced48545eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/해산물크림스파게티.prefab using Guid(4271cbe8e97a1284e96ebced48545eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba60ad6b01ce589146c72b008afa0add') in 0.036201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.448276 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/고구마치즈돈까스.prefab
+  artifactKey: Guid(704be2e87ad196240ae905da4dbe8b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/고구마치즈돈까스.prefab using Guid(704be2e87ad196240ae905da4dbe8b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08907542b9092a3d63fb6da7b349925d') in 0.042999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.778089 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/고반도반.prefab
+  artifactKey: Guid(824cf21241ad145438a751fd7e52c8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/고반도반.prefab using Guid(824cf21241ad145438a751fd7e52c8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627fe2bb2eb863f1bd8ed7e9524cb87b') in 0.045119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.221122 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/데리야끼돈까스.prefab
+  artifactKey: Guid(e4a283c74f308d84281bc4851ff993c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/데리야끼돈까스.prefab using Guid(e4a283c74f308d84281bc4851ff993c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be38e8723b062a82671302791805374f') in 0.044359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.946789 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/매콤불닭 돈까스.prefab
+  artifactKey: Guid(a82dd8da0885d9b429a4331b5403d472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/매콤불닭 돈까스.prefab using Guid(a82dd8da0885d9b429a4331b5403d472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09f6c99fce0fd0b4eb4d7313ced1b48') in 0.038883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.602211 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/수제돈까스.prefab
+  artifactKey: Guid(3cc8423cd02187246890c850a8557720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/수제돈까스.prefab using Guid(3cc8423cd02187246890c850a8557720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db14889c2eb7ad1fc396daeeed50e1e8') in 0.090101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.458183 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/순살치킨까스.prefab
+  artifactKey: Guid(dec4e1a6604736c479e5552b4aa14cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/순살치킨까스.prefab using Guid(dec4e1a6604736c479e5552b4aa14cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62141f9c533a12f1c66100e3b9a56018') in 0.099996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.765493 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/치반돈반.prefab
+  artifactKey: Guid(879e6523fab2b5842a905b9840080e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/치반돈반.prefab using Guid(879e6523fab2b5842a905b9840080e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe123fa669d65967461ee6b2d05de944') in 0.035327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.199073 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/치즈돈까스.prefab
+  artifactKey: Guid(1cc4b749ff38159419d0ee307f6ce883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/치즈돈까스.prefab using Guid(1cc4b749ff38159419d0ee307f6ce883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7467d2233fc05627af3ab2cafdeae45') in 0.037764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.172905 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/김치짜글이.prefab
+  artifactKey: Guid(8f9756e732e1a194083383b99fc2ad67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/김치짜글이.prefab using Guid(8f9756e732e1a194083383b99fc2ad67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab4487c886347eda37d312cae0d77eb') in 0.044609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.499628 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/꼬막비빔밥.prefab
+  artifactKey: Guid(d0cb007879552fe45871cff3936a4d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/꼬막비빔밥.prefab using Guid(d0cb007879552fe45871cff3936a4d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2908d34cbdbb6a883c5bc589e784f5') in 0.047174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.459972 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/대게장순두부찌개.prefab
+  artifactKey: Guid(0f23d4fa3a329564b96b03602f5f5d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/대게장순두부찌개.prefab using Guid(0f23d4fa3a329564b96b03602f5f5d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96acb9ba0b918c267694976a034075b') in 0.032989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.733900 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/부대찌개.prefab
+  artifactKey: Guid(7cccf6362328b9940a8123e46e29efcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/부대찌개.prefab using Guid(7cccf6362328b9940a8123e46e29efcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04a917ecd8d4032d0da27068362fe9b') in 0.034919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.888288 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/비빔밥 된장찌개.prefab
+  artifactKey: Guid(a118e8c702e58324f8f1d8417aaf3b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/비빔밥 된장찌개.prefab using Guid(a118e8c702e58324f8f1d8417aaf3b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070a073e4b5282212b630579ebbf3231') in 0.038464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.116072 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/순두부찌개.prefab
+  artifactKey: Guid(9def3673e16ad814080c51dcd0d8fe6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/순두부찌개.prefab using Guid(9def3673e16ad814080c51dcd0d8fe6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1dc0d1035e2416affa16d74b404f40') in 0.035867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.723977 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/양념갈비찜.prefab
+  artifactKey: Guid(7b3bcfdffc44146408792da6224beeb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/양념갈비찜.prefab using Guid(7b3bcfdffc44146408792da6224beeb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17400d8cea87cb985da7260f222ad4b0') in 0.050581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.843151 seconds.
+  path: Assets/FoodPrefabs/공대Prefabs
+  artifactKey: Guid(c6f1c46c698f7844cb1be681ed24836e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/공대Prefabs using Guid(c6f1c46c698f7844cb1be681ed24836e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653a3fc8bd4e9afc87109ea7f1060fc2') in 0.027685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.965413 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/편의점 샌드위치.prefab
+  artifactKey: Guid(0171fc5b4512c5546823e578b8d6c17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/편의점 샌드위치.prefab using Guid(0171fc5b4512c5546823e578b8d6c17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8afcd98f487f4c091cf80d36a2dc3eea') in 0.040274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.981427 seconds.
+  path: Assets/FoodPrefabs/아람Prefabs/편의점 햄버거.prefab
+  artifactKey: Guid(0c996aa2f99ca0a45aa4cfae7af7e3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/아람Prefabs/편의점 햄버거.prefab using Guid(0c996aa2f99ca0a45aa4cfae7af7e3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c130c54ee646f4e79eeb2fbefc4eafd') in 0.043381 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.034133 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\김민준\OneDrive\바탕 화면\객체지향프로젝트\rorwl00\rorwlProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\김민준\OneDrive\바탕 화면\객체지향프로젝트\rorwl00\rorwlProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.542 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3548ms)
+		BeginReloadAssembly (1415ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (153ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (719ms)
+		EndReloadAssembly (1808ms)
+			LoadAssemblies (482ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (571ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (718ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (49ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (157ms)
+				ProcessInitializeOnLoadAttributes (415ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 18.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3732 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.6 KB). Loaded Objects now: 4252.
+Memory consumption went from 152.8 MB to 152.7 MB.
+Total: 12.086200 ms (FindLiveObjects: 0.516500 ms CreateObjectMapping: 0.406400 ms MarkObjects: 11.012600 ms  DeleteObjects: 0.148400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020680 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\김민준\OneDrive\바탕 화면\객체지향프로젝트\rorwl00\rorwlProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\김민준\OneDrive\바탕 화면\객체지향프로젝트\rorwl00\rorwlProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.018 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3020ms)
+		BeginReloadAssembly (833ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (357ms)
+		EndReloadAssembly (1756ms)
+			LoadAssemblies (396ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (531ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (754ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (172ms)
+				ProcessInitializeOnLoadAttributes (418ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3732 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.6 KB). Loaded Objects now: 4255.
+Memory consumption went from 152.8 MB to 152.7 MB.
+Total: 7.212900 ms (FindLiveObjects: 0.495000 ms CreateObjectMapping: 0.449700 ms MarkObjects: 6.217600 ms  DeleteObjects: 0.048400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017595 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\김민준\OneDrive\바탕 화면\객체지향프로젝트\rorwl00\rorwlProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\김민준\OneDrive\바탕 화면\객체지향프로젝트\rorwl00\rorwlProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 3.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.986 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7990ms)
+		BeginReloadAssembly (1046ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (45ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (280ms)
+		EndReloadAssembly (6112ms)
+			LoadAssemblies (818ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1400ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (285ms)
+			SetupLoadedEditorAssemblies (3154ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (212ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (697ms)
+				ProcessInitializeOnLoadAttributes (1533ms)
+				ProcessInitializeOnLoadMethodAttributes (393ms)
+				AfterProcessingInitializeOnLoad (305ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (57ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 26.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3732 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.6 KB). Loaded Objects now: 4258.
+Memory consumption went from 152.8 MB to 152.7 MB.
+Total: 15.817300 ms (FindLiveObjects: 0.529100 ms CreateObjectMapping: 0.852200 ms MarkObjects: 14.388800 ms  DeleteObjects: 0.044100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 613.677384 seconds.
+  path: Assets/Sprites/png-transparent-frame-outline-picture-frame-brown-autumn-pattern-thumbnail-removebg-preview.png
+  artifactKey: Guid(f6db32456b99a0744992d7d30d88f14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/png-transparent-frame-outline-picture-frame-brown-autumn-pattern-thumbnail-removebg-preview.png using Guid(f6db32456b99a0744992d7d30d88f14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a56c3b79999470715beae721dc3414') in 0.238761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.540817 seconds.
+  path: Assets/Sprites/png-transparent-frame-outline-picture-frame-brown-autumn-pattern-thumbnail-removebg-preview.png
+  artifactKey: Guid(f6db32456b99a0744992d7d30d88f14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/png-transparent-frame-outline-picture-frame-brown-autumn-pattern-thumbnail-removebg-preview.png using Guid(f6db32456b99a0744992d7d30d88f14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebc6fffd6e1734df9ed40989d8363ae') in 0.068155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 223.233949 seconds.
+  path: Assets/FoodPrefabs/공대Prefabs/구시아돈가스
+  artifactKey: Guid(ee5e250b7376308449bc6a97ab346cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/공대Prefabs/구시아돈가스 using Guid(ee5e250b7376308449bc6a97ab346cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c07eceef1a45a0423948290afaf814') in 0.035771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020997 seconds.
+  path: Assets/FoodPrefabs/공대Prefabs/구시아돈가스/냉모밀.prefab
+  artifactKey: Guid(1d9a03c2cbd653840b14cebaf4f67dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/공대Prefabs/구시아돈가스/냉모밀.prefab using Guid(1d9a03c2cbd653840b14cebaf4f67dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8796f22692f43d2a142875ec7a6dd4') in 0.106755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/FoodPrefabs/공대Prefabs/구시아돈가스/치즈돈가스.prefab
+  artifactKey: Guid(94b6f4a431b7cfc4e806828d25cced8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/공대Prefabs/구시아돈가스/치즈돈가스.prefab using Guid(94b6f4a431b7cfc4e806828d25cced8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cbf2ddb43baecd8b2fa56ac8b94c06c') in 0.075137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/FoodPrefabs/공대Prefabs/구시아돈가스/쫄면.prefab
+  artifactKey: Guid(146ef0cbb304ce34684cf569fb342946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/공대Prefabs/구시아돈가스/쫄면.prefab using Guid(146ef0cbb304ce34684cf569fb342946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e980ea97c404e8f5472d5db0f39aab') in 0.054575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FoodPrefabs/공대Prefabs/구시아돈가스/더블등심돈가스.prefab
+  artifactKey: Guid(16f1885941a7f4242b1cbabf40c4a612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/공대Prefabs/구시아돈가스/더블등심돈가스.prefab using Guid(16f1885941a7f4242b1cbabf40c4a612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a372a7e1c97b5dff2e077dd0a4b7f2f5') in 0.056924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FoodPrefabs/공대Prefabs/구시아돈가스/치킨안심돈가스.prefab
+  artifactKey: Guid(ff288c4c3dc18b841998bcc01c8ca5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/공대Prefabs/구시아돈가스/치킨안심돈가스.prefab using Guid(ff288c4c3dc18b841998bcc01c8ca5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0696c7a43e795d84154e77376b35f17') in 0.069444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/FoodPrefabs/공대Prefabs/구시아돈가스/등심돈가스.prefab
+  artifactKey: Guid(10f9193102513744d9885cc1bc83c45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/공대Prefabs/구시아돈가스/등심돈가스.prefab using Guid(10f9193102513744d9885cc1bc83c45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c2494d366436f6ed847b66cf00902a') in 0.064515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/FoodPrefabs/공대Prefabs/구시아돈가스/우동.prefab
+  artifactKey: Guid(c58913adb0755f84bb343b785fd33355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/공대Prefabs/구시아돈가스/우동.prefab using Guid(c58913adb0755f84bb343b785fd33355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ccf2cba7392a82c87c8809fbbdc4e95') in 0.056920 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020786 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\김민준\OneDrive\바탕 화면\객체지향프로젝트\rorwl00\rorwlProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\김민준\OneDrive\바탕 화면\객체지향프로젝트\rorwl00\rorwlProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.240 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2242ms)
+		BeginReloadAssembly (342ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (1687ms)
+			LoadAssemblies (274ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (479ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (800ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (57ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (179ms)
+				ProcessInitializeOnLoadAttributes (465ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3732 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.6 KB). Loaded Objects now: 4264.
+Memory consumption went from 152.8 MB to 152.8 MB.
+Total: 5.887600 ms (FindLiveObjects: 0.402400 ms CreateObjectMapping: 0.299200 ms MarkObjects: 5.138900 ms  DeleteObjects: 0.045300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 472.508694 seconds.
+  path: Assets/FoodPrefabs/Tile.prefab
+  artifactKey: Guid(cd95c5c87a5cffc44bfad870fc76a017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodPrefabs/Tile.prefab using Guid(cd95c5c87a5cffc44bfad870fc76a017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27ed21ff8dd7e86563c51f125101fc4') in 0.173429 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033788 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\김민준\OneDrive\바탕 화면\객체지향프로젝트\rorwl00\rorwlProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\김민준\OneDrive\바탕 화면\객체지향프로젝트\rorwl00\rorwlProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.502 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2504ms)
+		BeginReloadAssembly (566ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (1713ms)
+			LoadAssemblies (436ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (540ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (745ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (160ms)
+				ProcessInitializeOnLoadAttributes (412ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 10.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3732 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.6 KB). Loaded Objects now: 4267.
+Memory consumption went from 152.8 MB to 152.8 MB.
+Total: 5.350400 ms (FindLiveObjects: 0.401500 ms CreateObjectMapping: 0.289000 ms MarkObjects: 4.620300 ms  DeleteObjects: 0.037600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016654 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\김민준\OneDrive\바탕 화면\객체지향프로젝트\rorwl00\rorwlProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\김민준\OneDrive\바탕 화면\객체지향프로젝트\rorwl00\rorwlProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 4.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.582 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8584ms)
+		BeginReloadAssembly (1136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (56ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (175ms)
+		EndReloadAssembly (6635ms)
+			LoadAssemblies (1148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1726ms)
+			ReleaseScriptCaches (9ms)
+			RebuildScriptCaches (518ms)
+			SetupLoadedEditorAssemblies (3058ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (142ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (738ms)
+				ProcessInitializeOnLoadAttributes (1857ms)
+				ProcessInitializeOnLoadMethodAttributes (165ms)
+				AfterProcessingInitializeOnLoad (143ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (320ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3732 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.6 KB). Loaded Objects now: 4270.
+Memory consumption went from 152.8 MB to 152.8 MB.
+Total: 6.866200 ms (FindLiveObjects: 0.401500 ms CreateObjectMapping: 0.259700 ms MarkObjects: 6.166800 ms  DeleteObjects: 0.036200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018784 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\김민준\OneDrive\바탕 화면\객체지향프로젝트\rorwl00\rorwlProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\김민준\OneDrive\바탕 화면\객체지향프로젝트\rorwl00\rorwlProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 3.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.462 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7464ms)
+		BeginReloadAssembly (1203ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (87ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (182ms)
+		EndReloadAssembly (5459ms)
+			LoadAssemblies (1032ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1945ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (427ms)
+			SetupLoadedEditorAssemblies (2123ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (138ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (589ms)
+				ProcessInitializeOnLoadAttributes (1263ms)
+				ProcessInitializeOnLoadMethodAttributes (103ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3732 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.6 KB). Loaded Objects now: 4273.
+Memory consumption went from 152.8 MB to 152.8 MB.
+Total: 5.162200 ms (FindLiveObjects: 0.460800 ms CreateObjectMapping: 0.328200 ms MarkObjects: 4.335700 ms  DeleteObjects: 0.036000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 281.058732 seconds.
+  path: Assets/Scripts/AiManager.cs
+  artifactKey: Guid(e0ba481115310f640a8644f816258582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AiManager.cs using Guid(e0ba481115310f640a8644f816258582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f108ebe1767961a780bfc61f50a9ec1c') in 0.079533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.194789 seconds.
+  path: Assets/Scripts/PrefabManager.cs
+  artifactKey: Guid(3a8bbeeac1fcd264fb71101b783868c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PrefabManager.cs using Guid(3a8bbeeac1fcd264fb71101b783868c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae471686543329a2958be0e07023cfe') in 0.028213 seconds 

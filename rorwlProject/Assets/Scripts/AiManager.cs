@@ -195,6 +195,55 @@ public class AiManager : MonoBehaviour
                         }
                     }
                 }
+                else if (numberManager.choosePlaceNum == 4)
+                {
+                    for (int i = 0; i < prefabManager.food04Prefabs.Length; i++)
+                    {
+                        if (numberManager.chooseSmallKindNum == 6)
+                        {
+                            numberManager.chooseSmallKindNum = randomNumber02;
+                        }
+                        if (prefabManager.food04Prefabs[i].GetComponent<FoodManager>().foodNumber.foodSmallKindNum == numberManager.chooseSmallKindNum)
+                        {
+                            if (j > 0 && index01 == 0)
+                            {
+                                if (j == 1)
+                                {
+                                    index02++;
+                                }
+                                else if (j == 2)
+                                {
+                                    readyFoodPrefabs[index03] = prefabManager.food04Prefabs[i];
+                                    index03++;
+                                }
+                            }
+                            else
+                            {
+                                if (numberManager.chooseBigKindNum == 6)
+                                {
+                                    numberManager.chooseBigKindNum = randomNumber03;
+                                }
+
+                                if (prefabManager.food04Prefabs[i].GetComponent<FoodManager>().foodNumber.foodBigKindNum == numberManager.chooseBigKindNum)
+                                {
+                                    if (j == 0)
+                                    {
+                                        index01++;
+                                    }
+                                    else if (j == 1)
+                                    {
+                                        index02++;
+                                    }
+                                    else if (j == 2)
+                                    {
+                                        readyFoodPrefabs[index03] = prefabManager.food04Prefabs[i];
+                                        index03++;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
 
@@ -202,6 +251,9 @@ public class AiManager : MonoBehaviour
 
         GameObject makeFood = Instantiate(readyFoodPrefabs[randomNumber01], tfFoodPrefab.position, Quaternion.identity);
         makeFood.transform.position = tfFoodPrefab.position;
+
+        GameObject makeTile = Instantiate(prefabManager.tile, makeFood.transform.position, Quaternion.identity);
+        makeTile.transform.position = makeFood.transform.position;
 
         isFood = true;
     }
