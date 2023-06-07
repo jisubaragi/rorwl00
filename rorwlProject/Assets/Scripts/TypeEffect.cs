@@ -38,6 +38,11 @@ public class TypeEffect : MonoBehaviour
     {
         if (msgText.text == targetMsg)
         {
+            if (AiManager.instance.numberManager.turn == 0)
+            {
+                Invoke("EffecStart", 2.5f);
+                TextManager.instance.isText = false;
+            }
             if (AiManager.instance.numberManager.turn == 2)
             {
                 text.AiHIde();
@@ -49,7 +54,6 @@ public class TypeEffect : MonoBehaviour
         AIpanel.SetTrigger("doEffect");
         msgText.text += targetMsg[index];
         index++;
-
         Invoke("Effecting", interval);
     }
     void EffectEnd()

@@ -26,6 +26,10 @@ public class TextManager : MonoBehaviour
         {
             PrintText();
         }
+        else if(!isText&& AiManager.instance.numberManager.turn == 0)
+        {
+            PrintText();
+        }
 
         if (AiManager.instance.numberManager.turn == 0)
         {
